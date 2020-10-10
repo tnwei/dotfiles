@@ -9,6 +9,7 @@
 dots: 
 	ln -vfs ${PWD}/.tmux.conf ${HOME}/.tmux.conf
 	ln -vfs ${PWD}/.vimrc ${HOME}/.vimrc
+	ln -vfs ${PWD}/.alias ${HOME}/.alias
 	
 # Test if exists, then only unlink 
 # Note: && doesn't run 2nd part if 1st part fails
@@ -17,3 +18,4 @@ dots:
 clean :
 	test -f ${HOME}/.tmux.conf && unlink ${HOME}/.tmux.conf || :
 	test -f ${HOME}/.vimrc && unlink ${HOME}/.vimrc || :
+	test -f ${HOME}/.alias && unlink ${HOME}/.alias || :
