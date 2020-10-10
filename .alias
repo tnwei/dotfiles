@@ -1,0 +1,8 @@
+# Shorthand for apt update, upgrade and autoremove
+alias uu="sudo apt update && sudo apt -y upgrade && sudo apt autoremove"
+
+# To grep TODOs in files
+# -I ignores binary
+# -R is recursive
+# -n is no idea what it is
+alias todo="grep TODO -nRI *"
