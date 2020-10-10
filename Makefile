@@ -9,7 +9,11 @@
 dots: 
 	ln -vfs ${PWD}/.tmux.conf ${HOME}/.tmux.conf
 	ln -vfs ${PWD}/.vimrc ${HOME}/.vimrc
-
+	
+# Test if exists, then only unlink 
+# Note: && doesn't run 2nd part if 1st part fails
+# Note: ":" is basically like Python's "pass"
+# Handles the myriad of things that happens to files between makes
 clean :
-	unlink ${HOME}/.tmux.conf
-	unlink ${HOME}/.vimrc
+	test -f ${HOME}/.tmux.conf && unlink ${HOME}/.tmux.conf || :
+	test -f ${HOME}/.vimrc && unlink ${HOME}/.vimrc || :
