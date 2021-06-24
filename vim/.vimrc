@@ -67,6 +67,10 @@ endfunction
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
 
+" Set such that the cursor has +/- N lines on screen
+" Use a really large number like 999 for the cursor to be centered vertically
+set scrolloff=2
+
 " Default cursor behaviour is to jump physical lines
 " Make it jump displayed lines instead
 " http://vim.wikia.com/wiki/Move_cursor_by_display_lines_when_wrapping
