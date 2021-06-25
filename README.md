@@ -22,4 +22,11 @@ stow -D vim
 ...
 ```
 
+Fonts:
 
++ UI: Overpass
++ Serif: Crimson Text
++ Sans Serif: Open Sans
++ Monospace: Fira Mono, Source Code Pro
+
+Follow [this article](https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0) on font intsallation on Linux
