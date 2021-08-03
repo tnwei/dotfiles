@@ -73,6 +73,7 @@ autocmd! User GoyoLeave call <SID>goyo_leave()
 
 " For toggling comments using Ctrl + /
 " Toggles the line that the cursor is on, in normal mode 
+" Also works for highlighted lines in Visual mode
 " ref: https://stackoverflow.com/a/9051932/13095028
 noremap <C-_> :Commentary<cr>
 
