@@ -13,6 +13,9 @@ Plug 'b4skyx/serenade'
 " :Goyo for a centered, distraction-free layout
 Plug 'junegunn/goyo.vim'
 
+" For toggle comments, found at https://stackoverflow.com/a/40167715/13095028
+Plug 'tpope/vim-commentary'
+
 " Initialize plugin system
 call plug#end()
 
@@ -67,6 +70,11 @@ endfunction
 " Use Goyo by typing `:Goyo` to toggle on/off
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
+
+" For toggling comments using Ctrl + /
+" Toggles the line that the cursor is on, in normal mode 
+" ref: https://stackoverflow.com/a/9051932/13095028
+noremap <C-_> :Commentary<cr>
 
 " Set such that the cursor has +/- N lines on screen
 " Use a really large number like 999 for the cursor to be centered vertically
