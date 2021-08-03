@@ -18,13 +18,13 @@ call plug#end()
 
 " Activate colorscheme
 " Don't think this works well over PuTTY?
-colorscheme serenade
+" colorscheme serenade
 
 " Limelight config
 
-" Limelight shadow color config required if colro scheme unsupported
+" Limelight shadow color config required if color scheme unsupported
 " :help cterm-colors
-" let g:limelight_conceal_ctermfg = 'darkgray'
+let g:limelight_conceal_ctermfg = 'darkgray'
 " I'd rather keep all cterms
 " let g:limelight_conceal_guifg = '#5A6374'
 
@@ -64,6 +64,7 @@ function! s:goyo_leave()
 
 endfunction
 
+" Use Goyo by typing `:Goyo` to toggle on/off
 autocmd! User GoyoEnter call <SID>goyo_enter()
 autocmd! User GoyoLeave call <SID>goyo_leave()
 
