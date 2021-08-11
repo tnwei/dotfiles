@@ -16,6 +16,9 @@ Plug 'junegunn/goyo.vim'
 " For toggle comments, found at https://stackoverflow.com/a/40167715/13095028
 Plug 'tpope/vim-commentary'
 
+" Shows an indent line
+Plug 'Yggdroot/indentLine'
+
 " Initialize plugin system
 call plug#end()
 
@@ -118,6 +121,11 @@ set tabstop=4
 " Set indent == single tab
 " Size of an indent
 set shiftwidth=4
+
+" For better yaml editing
+" ref: https://www.arthurkoziel.com/setting-up-vim-for-yaml/
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
 
 " Map F9 to run .py files
 " This will drop to shell to run
