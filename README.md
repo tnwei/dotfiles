@@ -33,3 +33,13 @@ stow -D vim
 + Ebooks: Literata Light, Crimson Text
 
 Follow [this article](https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0) on font intsallation on Linux
+
+## Pipx tools
+
++ `pipx install black`
++ `pipx install cookiecutter`
++ `pipx install dvc[all]`
++ `pipx install mkdocs mkdocs-material`
++ `pipx install jupyter-book`
++ `pipx install nbdime`
++ `pipx install pre-commit`
