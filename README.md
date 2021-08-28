@@ -22,7 +22,9 @@ stow -D vim
 ...
 ```
 
-Fonts:
++ `git` requires adding include to `.gitmyconfig` in `~/.gitconfig`
+
+## Fonts
 
 + UI: Overpass
 + Serif: Crimson Text

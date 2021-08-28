@@ -1,8 +1,12 @@
-[include]
-    path = .gitlocal
-# Place the following in ~/.gitlocal
+# Place the following in ~/.gitconfig
 # [user]
 #    email = <name>
 #    name = <name>
+# [include]
+#     path = .gitmyconfig
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+    editor = vim
+[diff "jupyternotebook"]
+    command = git-nbdiffdriver diff
