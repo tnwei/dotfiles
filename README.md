@@ -16,10 +16,16 @@ stow tmux
 stow vim
 ...
 
+# 2b. Or use stow.sh to loop
+bash stow.sh
+
 # 3. Unstow from repo dir 
 stow -D tmux
 stow -D vim
 ...
+
+# 3b. Or use unstow.sh to loop
+bash unstow.sh
 ```
 
 + `git` requires adding include to `.gitmyconfig` in `~/.gitconfig`
