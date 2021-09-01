@@ -49,3 +49,9 @@ Follow [this article](https://medium.com/source-words/how-to-manually-install-up
 + `pipx install jupyter-book`
 + `pipx install nbdime`
 + `pipx install pre-commit`
+
+## Other tools
+
+For reference when setting up a new system:
+
+ranger, htop, neofetch, miniconda3, vim, zathura, regolith linux stack (easy way to have i3-gaps, dwm, drun), pywal, tldr, dtrx (only up to Ubuntu 18), heroku CLI
