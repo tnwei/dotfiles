@@ -5,7 +5,7 @@ alias uu="sudo apt update && sudo apt -y upgrade && sudo apt autoremove"
 # -I ignores binary
 # -R is recursive
 # -n is no idea what it is
-alias todo="grep TODO -nRI *"
+alias todo="grep TODO -nRI --exclude=*.csv *"
 
 # Quick and dirty conversion of markdown to PDF using LaTeX
 # Requires pandoc!
