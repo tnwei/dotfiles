@@ -139,6 +139,9 @@ set number
 " Use soft tabs
 set expandtab
 
+" Search results show as I type them
+set incsearch
+
 " These two combined basically use only hard tabs
 " Set tabs
 " Width of a hard tabstop measured in 'spaces'
