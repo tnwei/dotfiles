@@ -1,3 +1,6 @@
+# Search within text files w/ ripgrep and fzf
+alias ff="rg . | fzf"
+
 # Shorthand for apt update, upgrade and autoremove
 alias uu="sudo apt update && sudo apt -y upgrade && sudo apt autoremove"
 
