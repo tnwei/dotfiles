@@ -17,6 +17,11 @@ md2pdf () {
     pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -o $2 $1
 }
 
+# Similar but pipes straight to zathura
+md2zathura(){
+    cat $1 | pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -w pdf | zathura -
+}
+
 # cURL an URL and get response time
 # ref: https://stackoverflow.com/a/22625150/13095028
 curltime () {
