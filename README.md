@@ -50,6 +50,17 @@ Follow [this article](https://medium.com/source-words/how-to-manually-install-up
 + `pipx install nbdime`
 + `pipx install pre-commit`
 
+## micromamba
+
+At time of writing, it is not declared production-ready yet and is meant for use in CI. No issues daily driving it tho.
+
+``` bash
+wget -qO- https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+mv bin/micromamba ~/.local/bin/micromamba
+chmod +x ~/.local/bin/micromamba
+./local/bin/micromamba shell init -s bash -p ~/micromamba
+```
+
 ## Other tools
 
 For reference when setting up a new system:
