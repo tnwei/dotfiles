@@ -36,3 +36,38 @@ curltime () {
          time_total:  %{time_total}\n
 EOF
 }
+
+# Opens a focus window in tmux
+# Close the whole thing using Ctrl-b, &
+focuspane(){
+    # Check if not in a tmux session
+    if [[ -z "$TMUX" ]]; then
+        # Attach tmux session if available, else create one
+        tmux a || tmux
+    fi
+
+    # Open a new window
+    tmux new-window
+
+    # Split out two vertical panes
+    tmux split-window -h
+    tmux split-window -h
+
+    # Resize to uniform size
+    tmux select-layout even-horizontal
+
+    # Shrink left and right pane
+    tmux select-pane -t 0
+    tmux resize-pane -L 30
+    tmux select-pane -t 2
+    tmux resize-pane -R 30
+    
+    # Open cmatrix on left and right pane
+    tmux select-pane -t 0
+    tmux send-keys cmatrix C-m
+    tmux select-pane -t 2
+    tmux send-keys cmatrix C-m
+    
+    # Return cursor to middle pane
+    tmux select-pane -t 1
+}
