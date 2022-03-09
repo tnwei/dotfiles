@@ -1,3 +1,6 @@
+# List size of files in dir and rank by size descending
+alias lssize="du --max-depth=1 -h | sort -rh"
+
 # Search within text files w/ ripgrep and fzf
 alias ff="rg . | fzf"
 
