@@ -169,5 +169,7 @@ set showmatch
 " Enable Python syntax highlighting
 let python_highlight_all = 1
 
-" Visual line
-" set cursorline
+" Disable quote concealing in JSON files
+" indentLine needs conceallevel to work
+" thankfully there is a JSON-specific disable
+let g:vim_json_conceal=0
