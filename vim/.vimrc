@@ -28,6 +28,8 @@ function! MathAndLiquid()
     "" Define certain regions
     " Block math. Look for "$$[anything]$$"
     syn region math start=/\$\$/ end=/\$\$/
+    " Block math in Hugo
+    syn region mathtwo start=/\\\\(/ end=/\\\\)/
     " inline math. Look for "$[not $][anything]$"
     syn match math_block '\$[^$].\{-}\$'
 
@@ -40,6 +42,7 @@ function! MathAndLiquid()
 
     "" Actually highlight those regions.
     hi link math Statement
+    hi link mathtwo Statement
     hi link liquid Statement
     hi link highlight_block Function
     hi link math_block Function
