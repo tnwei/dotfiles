@@ -61,6 +61,10 @@ chmod +x ~/.local/bin/micromamba
 ./local/bin/micromamba shell init -s bash -p ~/micromamba
 ```
 
+## wtfutil
+
+Just running `wtfutil` should work since the default file name is used, similar to running `wtfutil -c=~/.config/wtf/config.yml`.
+
 ## Other tools
 
 For reference when setting up a new system:

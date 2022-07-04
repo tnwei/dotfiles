@@ -1,0 +1,85 @@
+wtf:
+  colors:
+    border:
+      focusable: darkslateblue
+      focused: orange
+      normal: gray
+  grid:
+    columns: [40, 50]
+    rows: [8, 8, 10, 10, 15, 15]
+  refreshInterval: 1
+
+  # Modules here
+
+  mods:
+    
+    # CPU and RAM
+    # resources:
+    #   type: resourceusage
+    #   enabled: true
+    #   position:
+    #     top: 0
+    #     left: 0
+    #     height: 6 
+    #     width: 1
+    #   refreshInterval: 1
+    #   title: "CPU and RAM"
+
+    # Time panel
+    timepanel:
+      colors:
+        rows:
+          even: "lightblue"
+          odd: "white"
+      enabled: true
+      locations:
+        Kuala Lumpur: "Asia/Kuala_Lumpur"
+        Sydney: "Australia/Sydney"
+      position:
+        top: 0
+        left: 0
+        height: 1
+        width: 1
+      refreshInterval: 15
+      sort: "alphabetical"
+      title: "Time"
+      type: "clocks"
+    
+    systemp:
+      enabled: true
+      type: cmdrunner
+      title: psutils
+      refreshInterval: 1
+      cmd: "python3"
+      args: ["/home/tnwei/small_projects/psutils/sys_sensors.py"]
+      # args: ["python3"]
+      position:
+        top: 1
+        left: 0
+        width: 1
+        height: 1
+
+    # nvidia-smi using cmdrunner
+    nvidia-smi:
+      type: cmdrunner
+      cmd: "nvidia-smi"
+      enabled: true
+      position:
+        top: 0
+        left: 1
+        height: 3
+        width: 2
+      refreshInterval: 1
+
+    covid:
+      enabled: true
+      type: cmdrunner
+      refreshInterval: 14400
+      cmd: "curl"
+      args: ["http://msiacovidapi.herokuapp.com/ascii"]
+      position:
+        top: 3
+        left: 1
+        width: 2
+        height: 2
+      updateInterval: 14400
