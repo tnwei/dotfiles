@@ -309,7 +309,8 @@ bool oled_task_user(void) {
 #ifdef ENCODER_ENABLE
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
-    if (index == 0) {
+    // Left encoder
+    if (index == 1) {
         if (clockwise) {
             // tap_code(KC_VOLU);
             tap_code(KC_WH_L);
@@ -317,7 +318,8 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
             // tap_code(KC_VOLD);
             tap_code(KC_WH_R);
         }
-    } else if (index == 1) {
+    // Right encoder
+    } else if (index == 0) {
         if (clockwise) {
             // tap_code(KC_PGDOWN);
             tap_code(KC_WH_U);
