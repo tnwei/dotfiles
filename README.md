@@ -40,6 +40,12 @@ bash unstow.sh
 
 Follow [this article](https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0) on font intsallation on Linux
 
+## vim-plug
+
+Install with `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`. Then open vim, do `:PlugInstall` to install plugins defined in `.vimrc`.
+
+Ref: https://github.com/junegunn/vim-plug
+
 ## Pipx tools
 
 + `pipx install black`
