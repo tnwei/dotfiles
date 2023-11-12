@@ -8,6 +8,7 @@ stow:
 	stow --target=${HOME} tmux/
 	stow --target=${HOME} vim/
 	stow --target=${HOME} wtfutil/
+	stow --target=${HOME} nvim/
 
 
 unstow:
@@ -18,3 +19,4 @@ unstow:
 	stow --delete --target=${HOME} tmux/
 	stow --delete --target=${HOME} vim/
 	stow --delete --target=${HOME} wtfutil/
+	stow --delete --target=${HOME} nvim/
