@@ -1,3 +1,8 @@
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 # List size of files in dir and rank by size descending
 alias lssize="du --max-depth=1 -h | sort -rh"
 
@@ -16,14 +21,14 @@ alias todo="grep TODO -nRI --exclude=*.csv *"
 # Quick and dirty conversion of markdown to PDF using LaTeX
 # Requires pandoc!
 # Example: md2pdf file.md file.pdf
-md2pdf () {
-    pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -o $2 $1
-}
+# md2pdf () {
+#     pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -o $2 $1
+# }
 
 # Similar but pipes straight to zathura
-md2zathura(){
-    cat $1 | pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -w pdf | zathura -
-}
+# md2zathura(){
+#     cat $1 | pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -w pdf | zathura -
+# }
 
 # cURL an URL and get response time
 # ref: https://stackoverflow.com/a/22625150/13095028
