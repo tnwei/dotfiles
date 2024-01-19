@@ -1,6 +1,8 @@
 # My dotfiles
 
-Storing my dotfiles in this repo to sync them across machines. Uses GNU `stow` to manage symlinking. 
+Storing my dotfiles in this repo to sync them across machines. Uses GNU `stow` to manage symlinking. Has the same effect of doing manual `ln` but this is cleaner.
+
+Currently config for each app is stored in its own designated folder. Within these folders, the dir structure is arranged such that the whole folder's contents will be symlinked to `$HOME` using `stow`.
 
 ```
 # 1. Clone to homedir
@@ -39,6 +41,14 @@ bash unstow.sh
 + Ebooks: Literata Light, Crimson Text
 
 Follow [this article](https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0) on font intsallation on Linux
+
+For Firefox, this boiled down to the following:
+
++ Serif: Crimson Text
++ Sans Serif: Open Sans
++ Monospace: Source Code Pro
+
+And on my Linux systems, I use Overpass for the system UI.
 
 ## vim-plug
 
