@@ -9,6 +9,7 @@ stow:
 	stow --target=${HOME} vim/
 	stow --target=${HOME} wtfutil/
 	stow --target=${HOME} nvim/
+	stow --target=${HOME} hyprland/
 
 
 unstow:
@@ -20,3 +21,4 @@ unstow:
 	stow --delete --target=${HOME} vim/
 	stow --delete --target=${HOME} wtfutil/
 	stow --delete --target=${HOME} nvim/
+	stow --delete --target=${HOME} hyprland/
