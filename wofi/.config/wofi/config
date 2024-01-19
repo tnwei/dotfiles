@@ -1,0 +1,27 @@
+# man wofi to see docs
+# see specific sections with man NUMBER wofi
+
+mode=drun,run
+allow_markup=true
+allow_images=true # This adds icons
+image_size=32 # icon size
+no_actions=true # disables submenus, submenus pops entries out of alignment
+columns=2
+key_expand=End # Key to expand submenus
+line_wrap=word_char
+
+insensitive=true # case-insensitive search
+
+# wofi runs in a floating window by default
+# right now it crashes when moused over on display scaling != 1
+# using normal window as workaround until resolved
+# issue thread: https://github.com/hyprwm/Hyprland/issues/3729
+# side effect is currently I can accidentally mouse off wofi
+normal_window=true
+
+# hide_search=true # hides the search bar, but the space is still there and it disables titling
+# dynamic_lines=true
+
+# TODO: make only one instance of wofi runnable
+# https://www.reddit.com/r/archlinux/comments/m327pt/prevent_wofi_from_stacking_up/
+

@@ -10,6 +10,10 @@ stow:
 	stow --target=${HOME} wtfutil/
 	stow --target=${HOME} nvim/
 	stow --target=${HOME} hyprland/
+	stow --target=${HOME} foot/
+	stow --target=${HOME} waybar/
+	stow --target=${HOME} wlogout/
+	stow --target=${HOME} wofi/
 
 
 unstow:
@@ -22,3 +26,7 @@ unstow:
 	stow --delete --target=${HOME} wtfutil/
 	stow --delete --target=${HOME} nvim/
 	stow --delete --target=${HOME} hyprland/
+	stow --delete --target=${HOME} foot/
+	stow --delete --target=${HOME} waybar/
+	stow --delete --target=${HOME} wlogout/
+	stow --delete --target=${HOME} wofi/

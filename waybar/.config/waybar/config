@@ -1,0 +1,201 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    // "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces", 
+    ],
+    "modules-center": ["hyprland/window"],
+    "modules-right": [
+        // "idle_inhibitor",
+        // Do I really need CPU? I got thermals
+        // "cpu",
+        // "memory",
+        "pulseaudio", 
+        "network", 
+        "temperature", 
+        // "backlight",
+        // "keyboard-state", 
+        "battery", "battery#bat2", 
+        "clock", 
+        "custom/exit",
+        // What the hell is this tray thing? 
+        // I was able to shrink OBS to it
+        // What is this amazing thing???
+        "tray"
+    ],
+
+    // Modules configuration
+    // For icons, goto the Font Awesome website and copy the glyphs!
+    "hyprland/workspaces": {
+        "sort-by": "number",
+        "show-special": true,
+        // all-outputs false means each monitor only shows
+        // the workspace that they have
+        "all-outputs": false,
+        "format": "{name}",
+        "format-icons": {
+            /* "1": "", */
+            /* "2": "", */
+            /* "3": "", */
+            /* "4": "", */
+            /* "5": "", */
+            "urgent": "",
+            "focused": "",
+            /* "default": "" */
+        }
+    },
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "custom/exit": {
+        // Requires wlogout to be installed
+        "format": "",
+        "on-click": "wlogout",
+        "tooltip": false
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%I:%M %p, %b %d %a}",
+        "calendar": {
+            "mode": "month",
+            "on-scroll": 1,
+            "format": {
+                "today":
+                "<span color='#ff6699'><b><u>{}</u></b></span>" 
+            }
+        },
+        // Doesnt reset! Hassle to have
+        /* "actions": { */
+        /*     "on-scroll-up": "shift_up", */
+        /*     "on-scroll-down": "shift_down" */
+        /* } */
+    },
+    "cpu": {
+        "format": "{usage:3}% ",
+        "tooltip": false,
+        "interval": 2
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC:2}°C {icon}",
+        "format": "{temperatureC:2}°C {icon}",
+        "format-icons": ["", "", ""],
+        "interval": 2
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "battery": {
+        // This is actually the internal battery
+        "bat": "BAT0",
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "INT {capacity:3}% {icon}",
+        "format-charging": "INT {capacity:3}% ",
+        "format-plugged": "INT {capacity:3}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+        "interval": 2
+    },
+    "battery#bat2": {
+        // And this is the external battery!
+        "bat": "BAT1",
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "MAIN {capacity:3}% {icon}",
+        "format-charging": "MAIN {capacity:3}% ",
+        "format-plugged": "MAIN {capacity:3}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+        "interval": 2
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{signalStrength}% ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{essid} {signalStrength}% ",
+        "interval": 2,
+    },
+    "pulseaudio": {
+        // No idea what source is
+        // But Im leaving it out rn
+        "scroll-step": 2, // %, can be a float
+        "format": "{volume:3}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": " {icon}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume:3}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            // Spaces are added behind the first two already to minimize bar size change
+            // Not enough so gonna mess w/ the style instead
+            // Couldnt make it work coz text-align not supported in GTK
+            // Leave this for next time
+            "default": [" ", " ", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    }
+}
+
+
