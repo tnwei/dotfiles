@@ -14,6 +14,7 @@ stow:
 	stow --target=${HOME} waybar/
 	stow --target=${HOME} wlogout/
 	stow --target=${HOME} wofi/
+	stow --target=${HOME} dunst/
 
 
 unstow:
@@ -30,3 +31,4 @@ unstow:
 	stow --delete --target=${HOME} waybar/
 	stow --delete --target=${HOME} wlogout/
 	stow --delete --target=${HOME} wofi/
+	stow --delete --target=${HOME} dunst/
