@@ -15,7 +15,10 @@ stow:
 	stow --target=${HOME} wlogout/
 	stow --target=${HOME} wofi/
 	stow --target=${HOME} dunst/
-
+	# For scripts, the whole folder is added to PATH
+	# Symlinking need -r to resolve relative paths
+	ln -rs scripts ${HOME}/.local/scripts
+	stow --target=${HOME}/.local/share/applications desktop/
 
 unstow:
 	stow --delete --target=${HOME} bash/
@@ -32,3 +35,5 @@ unstow:
 	stow --delete --target=${HOME} wlogout/
 	stow --delete --target=${HOME} wofi/
 	stow --delete --target=${HOME} dunst/
+	unlink ${HOME}/.local/scripts
+	stow --delete --target=${HOME}/.local/share/applications desktop/
