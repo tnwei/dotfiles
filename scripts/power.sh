@@ -15,7 +15,7 @@ fi
 
 case $SELECTED in
 lock)
-	$HOME/swaylock-fancy/swaylock-fancy.sh
+	$HOME/.local/scripts/swaylock-fancy.sh
 	;;
 logout)
 	if zenity --question --icon system-log-out --title="Logout"; then
