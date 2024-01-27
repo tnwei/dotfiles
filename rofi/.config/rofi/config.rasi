@@ -1,0 +1,9 @@
+configuration {
+	modi: "window,drun,run";
+	font: "Ubuntu Medium 16";
+	show-icons: true;
+	icon-theme: "Adwaita";
+	drun-display-format: "{name}";
+	window-format: " {n} {t}";
+	theme: "/home/tnwei/.config/rofi/themes/squared-nord-modified.rasi";
+}
