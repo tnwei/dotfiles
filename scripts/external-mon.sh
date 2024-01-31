@@ -30,10 +30,13 @@ case $NUM_MONITORS in
     *)
         case $MONITOR_NAMES in 
             # Turn off laptop screen if connected to work monitor
-            # TODO: Change this to a more specific identifier!
             *"P2419H"*)
                 hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
-                notify-send "Work monitor detected"
+                notify-send "Dell work monitor detected"
+                ;;
+            *"E24 G5"*)
+                hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
+                notify-send "HP work monitor detected"
                 ;;
             *"KG241Q P"*)
                 hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
