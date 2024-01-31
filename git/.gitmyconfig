@@ -10,3 +10,6 @@
     editor = vim
 [diff "jupyternotebook"]
     command = git-nbdiffdriver diff
+[pull]
+	rebase = true
+	ff = only
