@@ -31,9 +31,15 @@ window#waybar #window {
   padding: 0px 15px;
 }
 
+/* This is for when the waybar has no windows in it */
 window#waybar.empty {
     background-color: transparent;
 }
+
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
 /*
 window#waybar.solo {
     background-color: #FFFFFF;
