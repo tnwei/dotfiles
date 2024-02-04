@@ -7,10 +7,10 @@ Type=Application
 Version=1.0
 
 # The name of the application
-Name=Suspend
+Name=Suspend / Sleep
 
 # A comment which can/will be used as a tooltip
-Comment=Suspend
+Comment=Suspend / Sleep
 
 # The path to the folder in which the executable is run
 Path=/home/tnwei/.local/scripts/

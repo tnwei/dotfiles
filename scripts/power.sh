@@ -33,9 +33,8 @@ logout)
 	fi
 	;;
 suspend)
-	if zenity --question --icon media-playback-pause --title="Suspend"; then
-		systemctl suspend
-	fi
+    # Skip confirmation for sleep, just like locking screen
+    systemctl suspend
 	;;
 reboot)
 	if zenity --question --icon system-reboot --title="Reboot"; then
