@@ -22,6 +22,8 @@ stow:
 	stow --target=${HOME} rofi/
 	stow --target=${HOME} regolith/
 	stow --target=${HOME} ranger/
+	stow --target=${HOME} stpv/
+	stow --target=${HOME} lf/
 
 unstow:
 	stow --delete --target=${HOME} bash/
@@ -43,3 +45,5 @@ unstow:
 	stow --delete --target=${HOME} rofi/
 	stow --delete --target=${HOME} regolith/
 	stow --delete --target=${HOME} ranger/
+	stow --delete --target=${HOME} stpv/
+	stow --delete --target=${HOME} lf/
