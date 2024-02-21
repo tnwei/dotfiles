@@ -19,8 +19,9 @@ stow:
 	# Symlinking need -r to resolve relative paths
 	ln -rs scripts ${HOME}/.local/scripts
 	stow --target=${HOME}/.local/share/applications desktop/
-	stow --taget=${HOME} rofi/
-	stow --taget=${HOME} regolith/
+	stow --target=${HOME} rofi/
+	stow --target=${HOME} regolith/
+	stow --target=${HOME} ranger/
 
 unstow:
 	stow --delete --target=${HOME} bash/
@@ -41,3 +42,4 @@ unstow:
 	stow --delete --target=${HOME}/.local/share/applications desktop/
 	stow --delete --target=${HOME} rofi/
 	stow --delete --target=${HOME} regolith/
+	stow --delete --target=${HOME} ranger/
