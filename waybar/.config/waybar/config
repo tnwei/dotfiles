@@ -80,18 +80,21 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%I:%M %p, %b %d %a}",
         "calendar": {
-            "mode": "month",
+            "mode": "year",
+            "mode-mon-col": 3,
             "on-scroll": 1,
             "format": {
                 "today":
                 "<span color='#ff6699'><b><u>{}</u></b></span>" 
-            }
+            },
+            "on-click-right": "mode"
         },
         // Doesnt reset! Hassle to have
-        /* "actions": { */
         /*     "on-scroll-up": "shift_up", */
         /*     "on-scroll-down": "shift_down" */
-        /* } */
+        "actions": {
+            "on-click-right": "mode"
+        }
     },
     "cpu": {
         "format": "{usage:3}% ",
