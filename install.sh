@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# Manually install
+# glow stpv lf
+
 CORE_PKGS=(
     "gcc"
     "neo"
@@ -12,7 +15,6 @@ CORE_PKGS=(
     "fzf"
     "make"
     "pipx"
-    "lf"
     "tmux"
     "vim"
     "stow"
@@ -58,8 +60,6 @@ PERSONAL_PC_PKGS=(
 )
 
 
-# Manually install
-# glow stpv
 
 # Determine which system
 if [ -e /etc/fedora-release ]; then
