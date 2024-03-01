@@ -27,6 +27,7 @@ PIPX_PKGS=(
     "nbdime"
     "pre-commit"
     "dtrx"
+    "git+https://github.com/tnwei/nbread"
 )
 
 HYPRLAND_PKGS=(
