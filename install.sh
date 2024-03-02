@@ -1,11 +1,10 @@
 #! /bin/bash
 
 # Manually install
-# glow stpv lf
+# glow stpv lf neo zoxide
 
 CORE_PKGS=(
     "gcc"
-    "neo"
     "bat"
     "ranger"
     "htop"
