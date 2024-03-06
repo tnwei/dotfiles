@@ -7,8 +7,15 @@ call plug#begin('~/.vim/plugged')
 " Needs tweaking the colours but otherwise quite neat
 Plug 'https://github.com/junegunn/limelight.vim'
 
-" Serenade colour scheme, gentle and easy on the eye
+" Sensible vim defaults
+Plug 'tpope/vim-sensible'
+
+" Color schemes
 Plug 'b4skyx/serenade'
+Plug 'sainnhe/everforest'
+
+" Better vim language understanding
+Plug 'sheerun/vim-polyglot'
 
 " :Goyo for a centered, distraction-free layout
 Plug 'junegunn/goyo.vim'
@@ -21,6 +28,23 @@ Plug 'Yggdroot/indentLine'
 
 " Initialize plugin system
 call plug#end()
+
+" For serenade and everforest
+if has('termguicolors')
+  set termguicolors
+endif
+
+
+" Prefer serenade over everforest, everforest contrast too low for me
+" let g:everforest_background = 'hard'
+" let g:everforest_better_performance = 1
+" colorscheme everforest
+
+" This is for serenade
+let g:serenade_enable_italic = 1
+let g:serenade_disable_italic_comment = 1
+let g:serenade_better_performance = 1
+colorscheme serenade
 
 " Markdown workaround from
 " https://stsievert.com/blog/2016/01/06/vim-jekyll-mathjax/ 
@@ -176,3 +200,7 @@ let python_highlight_all = 1
 " indentLine needs conceallevel to work
 " thankfully there is a JSON-specific disable
 let g:vim_json_conceal=0
+
+" And this is to prevent concealing symbols in Markdown
+let g:vim_markdown_conceal = 0
+let g:vim_markdown_conceal_code_blocks = 0
