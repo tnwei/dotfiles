@@ -4,5 +4,5 @@ handle_ipynb() {
     [ "$file_extension_lower" = ipynb ] ||
         return "$RET_NO_MATCH"
 
-    nbread "$file_path" --pager
+    nbread "$file_path"
 }
