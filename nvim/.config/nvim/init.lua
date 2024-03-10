@@ -7,3 +7,10 @@ vim.wo.wrap = true
 
 -- Disable mouse
 vim.opt.mouse = ""
+
+-- No concealing anything
+vim.opt.conceallevel = 0
+
+-- Get up and down to mean visual up and down
+vim.keymap.set("n", "<down>", "gj")
+vim.keymap.set("n", "<up>", "gk")
