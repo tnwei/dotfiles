@@ -53,6 +53,7 @@ HYPRLAND_PKGS=(
     "zathura-pdf-mupdf"
     "vlc"
     "pinta"
+    "swappy"
 )
 
 PERSONAL_PC_PKGS=(
