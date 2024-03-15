@@ -1,0 +1,5 @@
+[Default]
+save_dir=$HOME/Pictures
+save_filename_format=screenshot-%Y%m%d-%H%M%S.png
+# early_exit will close the interface after selecting copy or save!
+early_exit=true
