@@ -69,12 +69,12 @@
         // "icon-size": 21,
         "spacing": 10
     },
-    "custom/exit": {
+    // "custom/exit": {
         // Requires wlogout to be installed
-        "format": "",
-        "on-click": "wlogout",
-        "tooltip": false
-    },
+        // "format": "",
+        // "on-click": "wlogout",
+        // "tooltip": false
+    // },
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",

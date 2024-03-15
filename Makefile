@@ -12,7 +12,6 @@ stow:
 	stow --target=${HOME} hyprland/
 	stow --target=${HOME} foot/
 	stow --target=${HOME} waybar/
-	stow --target=${HOME} wlogout/
 	stow --target=${HOME} wofi/
 	stow --target=${HOME} dunst/
 	# For scripts, the whole folder is added to PATH
@@ -38,7 +37,6 @@ unstow:
 	stow --delete --target=${HOME} hyprland/
 	stow --delete --target=${HOME} foot/
 	stow --delete --target=${HOME} waybar/
-	stow --delete --target=${HOME} wlogout/
 	stow --delete --target=${HOME} wofi/
 	stow --delete --target=${HOME} dunst/
 	unlink ${HOME}/.local/scripts
