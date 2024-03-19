@@ -15,7 +15,7 @@
         // Do I really need CPU? I got thermals
         // "cpu",
         // "memory",
-        "pulseaudio", 
+        "wireplumber", 
         "network", 
         "temperature", 
         // "backlight",
@@ -162,10 +162,11 @@
         "format-alt": "{essid} {signalStrength}% ",
         "interval": 2,
     },
-    "pulseaudio": {
+    "wireplumber": {
         // No idea what source is
         // But Im leaving it out rn
         "scroll-step": 2, // %, can be a float
+        "max-volume": 150.0,
         "format": "{volume:3}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
         "format-bluetooth-muted": " {icon}",
