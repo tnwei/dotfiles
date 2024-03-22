@@ -11,7 +11,7 @@
     ],
     "modules-center": ["hyprland/window"],
     "modules-right": [
-        // "idle_inhibitor",
+        "idle_inhibitor",
         // Do I really need CPU? I got thermals
         // "cpu",
         // "memory",
@@ -60,6 +60,7 @@
     },
     "idle_inhibitor": {
         "format": "{icon}",
+        "start-activated": false,
         "format-icons": {
             "activated": "",
             "deactivated": ""
