@@ -24,6 +24,7 @@ stow:
 	stow --target=${HOME} stpv/
 	stow --target=${HOME} lf/
 	stow --target=${HOME} swappy/
+	stow --target=${HOME} starship/
 
 unstow:
 	stow --delete --target=${HOME} bash/
@@ -47,3 +48,4 @@ unstow:
 	stow --delete --target=${HOME} stpv/
 	stow --delete --target=${HOME} lf/
 	stow --delete --target=${HOME} swappy/
+	stow --delete --target=${HOME} starship/
