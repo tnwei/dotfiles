@@ -77,7 +77,7 @@
         // "tooltip": false
     // },
     "clock": {
-        // "timezone": "America/New_York",
+        "timezone": "Asia/Kuala_Lumpur",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%I:%M %p, %b %d %a}",
         "calendar": {
@@ -87,15 +87,15 @@
             "format": {
                 "today":
                 "<span color='#ff6699'><b><u>{}</u></b></span>" 
-            },
-            "on-click-right": "mode"
+            }
+            // "on-click-right": "mode"
         },
         // Doesnt reset! Hassle to have
         /*     "on-scroll-up": "shift_up", */
         /*     "on-scroll-down": "shift_down" */
-        "actions": {
-            "on-click-right": "mode"
-        }
+        // "actions": {
+        //     "on-click-right": "mode"
+        // }
     },
     "cpu": {
         "format": "{usage:3}% ",
