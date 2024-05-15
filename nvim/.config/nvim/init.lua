@@ -12,13 +12,8 @@ vim.opt.mouse = ""
 vim.opt.conceallevel = 0
 
 -- Get up and down to mean visual up and down
+-- In both normal and insert mode
 vim.keymap.set("n", "<down>", "gj")
 vim.keymap.set("n", "<up>", "gk")
-
--- Configure Pyright
--- Prefer to have this in plugins/
-require('lspconfig').pyright.setup({
-    settings = {
-        pyright = {autoImportCompletion = true,}
-    }
-})
+vim.keymap.set("i", "<down>", "<C-o>gj")
+vim.keymap.set("i", "<up>", "<C-o>gk")

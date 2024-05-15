@@ -15,8 +15,13 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        pyright = {},
+        pyright = {
+          -- this line if uncommented prevents pyright from being installed
+          -- mason = false,
+          autoImportCompletion = true,
+        },
         ruff_lsp = {
+          enabled = lsp == "ruff_lsp",
           keys = {
             {
               "<leader>co",
@@ -39,6 +44,8 @@ return {
           require("lazyvim.util").lsp.on_attach(function(client, _)
             if client.name == "ruff_lsp" then
               -- Disable hover in favor of Pyright
+              -- Edit: remove Pyright
+              -- Edit2: added it back coz dunno how to change lsp settings despite all this
               client.server_capabilities.hoverProvider = false
             end
           end)
