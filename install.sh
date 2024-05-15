@@ -17,6 +17,7 @@ CORE_PKGS=(
     "tmux"
     "vim"
     "stow"
+    "fd"
     "neovim"
 )
 
@@ -37,7 +38,6 @@ HYPRLAND_PKGS=(
     "swaybg"
     "polkit-gnome"
     "dunst"
-    "wlogout"
     "swaylock"
     "grim"
     "slurp"
