@@ -1,0 +1,1636 @@
+shrug,¯\_(ツ)_/¯
+face with tears of joy ,😂
+grinning face with smiling eyes ,😄
+melting face ,🫠
+grinning face with sweat ,😅
+face with rolling eyes ,🙄
+smirking face ,😏
+smiling face with halo ,😇
+grinning face ,😀
+squinting face with tongue ,😝
+grinning face with big eyes ,😃
+unamused face ,😒
+beaming face with smiling eyes ,😁
+grinning squinting face ,😆
+rolling on the floor laughing ,🤣
+slightly smiling face ,🙂
+upside-down face ,🙃
+winking face ,😉
+smiling face with smiling eyes ,😊
+smiling face with hearts ,🥰
+smiling face with heart-eyes ,😍
+star-struck ,🤩
+neutral face ,😐
+see-no-evil monkey ,🙈
+hear-no-evil monkey ,🙉
+speak-no-evil monkey ,🙊
+face blowing a kiss ,😘
+kissing face ,😗
+kissing face with closed eyes ,😚
+kissing face with smiling eyes ,😙
+face savoring food ,😋
+face with tongue ,😛
+winking face with tongue ,😜
+zany face ,🤪
+money-mouth face ,🤑
+hugging face ,🤗
+face with hand over mouth ,🤭
+shushing face ,🤫
+thinking face ,🤔
+zipper-mouth face ,🤐
+face with raised eyebrow ,🤨
+expressionless face ,😑
+face without mouth ,😶
+grimacing face ,😬
+smiling face ,☺
+lying face ,🤥
+relieved face ,😌
+pensive face ,😔
+sleepy face ,😪
+drooling face ,🤤
+sleeping face ,😴
+face with medical mask ,😷
+face with thermometer ,🤒
+face with head-bandage ,🤕
+nauseated face ,🤢
+face vomiting ,🤮
+sneezing face ,🤧
+hot face ,🥵
+cold face ,🥶
+woozy face ,🥴
+dizzy face ,😵
+exploding head ,🤯
+cowboy hat face ,🤠
+partying face ,🥳
+smiling face with sunglasses ,😎
+nerd face ,🤓
+face with monocle ,🧐
+confused face ,😕
+worried face ,😟
+slightly frowning face ,🙁
+frowning face ,☹
+face with open mouth ,😮
+hushed face ,😯
+astonished face ,😲
+flushed face ,😳
+pleading face ,🥺
+frowning face with open mouth ,😦
+anguished face ,😧
+fearful face ,😨
+anxious face with sweat ,😰
+sad but relieved face ,😥
+crying face ,😢
+loudly crying face ,😭
+face screaming in fear ,😱
+confounded face ,😖
+persevering face ,😣
+disappointed face ,😞
+downcast face with sweat ,😓
+weary face ,😩
+tired face ,😫
+face with steam from nose ,😤
+pouting face ,😡
+angry face ,😠
+face with symbols on mouth ,🤬
+smiling face with horns ,😈
+angry face with horns ,👿
+skull ,💀
+skull and crossbones ,☠
+pile of poo ,💩
+clown face ,🤡
+ogre ,👹
+goblin ,👺
+ghost ,👻
+alien ,👽
+alien monster ,👾
+robot face ,🤖
+grinning cat face ,😺
+grinning cat face with smiling eyes ,😸
+cat face with tears of joy ,😹
+smiling cat face with heart-eyes ,😻
+cat face with wry smile ,😼
+kissing cat face ,😽
+weary cat face ,🙀
+crying cat face ,😿
+pouting cat face ,😾
+kiss mark ,💋
+waving hand ,👋
+raised back of hand ,🤚
+hand with fingers splayed ,🖐
+raised hand ,✋
+vulcan salute ,🖖
+ok hand ,👌
+victory hand ,✌
+crossed fingers ,🤞
+love-you gesture ,🤟
+sign of the horns ,🤘
+call me hand ,🤙
+backhand index pointing left ,👈
+backhand index pointing right ,👉
+backhand index pointing up ,👆
+middle finger ,🖕
+backhand index pointing down ,👇
+index pointing up ,☝
+thumbs up ,👍
+thumbs down ,👎
+raised fist ,✊
+oncoming fist ,👊
+left-facing fist ,🤛
+right-facing fist ,🤜
+clapping hands ,👏
+raising hands ,🙌
+open hands ,👐
+palms up together ,🤲
+handshake ,🤝
+folded hands ,🙏
+writing hand ,✍
+nail polish ,💅
+selfie ,🤳
+flexed biceps ,💪
+leg ,🦵
+foot ,🦶
+ear ,👂
+nose ,👃
+brain ,🧠
+tooth ,🦷
+bone ,🦴
+eyes ,👀
+eye ,👁
+tongue ,👅
+mouth ,👄
+baby ,👶
+child ,🧒
+boy ,👦
+girl ,👧
+person ,🧑
+person: blond hair ,👱
+man ,👨
+man: beard ,🧔
+man: blond hair 👱‍♂,️
+man: red hair 👨‍,🦰
+man: curly hair 👨‍,🦱
+man: white hair 👨‍,🦳
+man: bald 👨‍,🦲
+woman ,👩
+woman: blond hair 👱‍♀,️
+woman: red hair 👩‍,🦰
+woman: curly hair 👩‍,🦱
+woman: white hair 👩‍,🦳
+woman: bald 👩‍,🦲
+older person ,🧓
+old man ,👴
+old woman ,👵
+person frowning ,🙍
+man frowning 🙍‍♂,️
+woman frowning 🙍‍♀,️
+person pouting ,🙎
+man pouting 🙎‍♂,️
+woman pouting 🙎‍♀,️
+person gesturing no ,🙅
+man gesturing no 🙅‍♂,️
+woman gesturing no 🙅‍♀,️
+person gesturing ok ,🙆
+man gesturing ok 🙆‍♂,️
+woman gesturing ok 🙆‍♀,️
+person tipping hand ,💁
+man tipping hand 💁‍♂,️
+woman tipping hand 💁‍♀,️
+person raising hand ,🙋
+man raising hand 🙋‍♂,️
+woman raising hand 🙋‍♀,️
+person bowing ,🙇
+man bowing 🙇‍♂,️
+woman bowing 🙇‍♀,️
+person facepalming ,🤦
+man facepalming 🤦‍♂,️
+woman facepalming 🤦‍♀,️
+person shrugging ,🤷
+man shrugging 🤷‍♂,️
+woman shrugging 🤷‍♀,️
+man health worker 👨‍⚕,️
+woman health worker 👩‍⚕,️
+man student 👨‍,🎓
+woman student 👩‍,🎓
+man teacher 👨‍,🏫
+woman teacher 👩‍,🏫
+man judge 👨‍⚖,️
+woman judge 👩‍⚖,️
+man farmer 👨‍,🌾
+woman farmer 👩‍,🌾
+man cook 👨‍,🍳
+woman cook 👩‍,🍳
+man mechanic 👨‍,🔧
+woman mechanic 👩‍,🔧
+man factory worker 👨‍,🏭
+woman factory worker 👩‍,🏭
+man office worker 👨‍,💼
+woman office worker 👩‍,💼
+man scientist 👨‍,🔬
+woman scientist 👩‍,🔬
+man technologist 👨‍,💻
+woman technologist 👩‍,💻
+man singer 👨‍,🎤
+woman singer 👩‍,🎤
+man artist 👨‍,🎨
+woman artist 👩‍,🎨
+man pilot 👨‍✈,️
+woman pilot 👩‍✈,️
+man astronaut 👨‍,🚀
+woman astronaut 👩‍,🚀
+man firefighter 👨‍,🚒
+woman firefighter 👩‍,🚒
+police officer ,👮
+man police officer 👮‍♂,️
+woman police officer 👮‍♀,️
+detective ,🕵
+man detective 🕵️‍♂,️
+woman detective 🕵️‍♀,️
+guard ,💂
+man guard 💂‍♂,️
+woman guard 💂‍♀,️
+construction worker ,👷
+man construction worker 👷‍♂,️
+woman construction worker 👷‍♀,️
+prince ,🤴
+princess ,👸
+person wearing turban ,👳
+man wearing turban 👳‍♂,️
+woman wearing turban 👳‍♀,️
+man with chinese cap ,👲
+woman with headscarf ,🧕
+man in tuxedo ,🤵
+bride with veil ,👰
+pregnant woman ,🤰
+breast-feeding ,🤱
+baby angel ,👼
+santa claus ,🎅
+mrs. claus ,🤶
+superhero ,🦸
+man superhero 🦸‍♂,️
+woman superhero 🦸‍♀,️
+supervillain ,🦹
+man supervillain 🦹‍♂,️
+woman supervillain 🦹‍♀,️
+mage ,🧙
+man mage 🧙‍♂,️
+woman mage 🧙‍♀,️
+fairy ,🧚
+man fairy 🧚‍♂,️
+woman fairy 🧚‍♀,️
+vampire ,🧛
+man vampire 🧛‍♂,️
+woman vampire 🧛‍♀,️
+merperson ,🧜
+merman 🧜‍♂,️
+mermaid 🧜‍♀,️
+elf ,🧝
+man elf 🧝‍♂,️
+woman elf 🧝‍♀,️
+genie ,🧞
+man genie 🧞‍♂,️
+woman genie 🧞‍♀,️
+zombie ,🧟
+man zombie 🧟‍♂,️
+woman zombie 🧟‍♀,️
+person getting massage ,💆
+man getting massage 💆‍♂,️
+woman getting massage 💆‍♀,️
+person getting haircut ,💇
+man getting haircut 💇‍♂,️
+woman getting haircut 💇‍♀,️
+person walking ,🚶
+man walking 🚶‍♂,️
+woman walking 🚶‍♀,️
+person running ,🏃
+man running 🏃‍♂,️
+woman running 🏃‍♀,️
+woman dancing ,💃
+man dancing ,🕺
+man in suit levitating ,🕴
+people with bunny ears ,👯
+men with bunny ears 👯‍♂,️
+women with bunny ears 👯‍♀,️
+person in steamy room ,🧖
+man in steamy room 🧖‍♂,️
+woman in steamy room 🧖‍♀,️
+person in lotus position ,🧘
+women holding hands ,👭
+woman and man holding hands ,👫
+men holding hands ,👬
+kiss ,💏
+kiss: man, man 👨‍❤️‍💋‍,👨
+kiss: woman, woman 👩‍❤️‍💋‍,👩
+couple with heart ,💑
+couple with heart: man, man 👨‍❤️‍,👨
+couple with heart: woman, woman 👩‍❤️‍,👩
+family ,👪
+family: man, woman, boy 👨‍👩‍,👦
+family: man, woman, girl 👨‍👩‍,👧
+family: man, woman, girl, boy 👨‍👩‍👧‍,👦
+family: man, woman, boy, boy 👨‍👩‍👦‍,👦
+family: man, woman, girl, girl 👨‍👩‍👧‍,👧
+family: man, man, boy 👨‍👨‍,👦
+family: man, man, girl 👨‍👨‍,👧
+family: man, man, girl, boy 👨‍👨‍👧‍,👦
+family: man, man, boy, boy 👨‍👨‍👦‍,👦
+family: man, man, girl, girl 👨‍👨‍👧‍,👧
+family: woman, woman, boy 👩‍👩‍,👦
+family: woman, woman, girl 👩‍👩‍,👧
+family: woman, woman, girl, boy 👩‍👩‍👧‍,👦
+family: woman, woman, boy, boy 👩‍👩‍👦‍,👦
+family: woman, woman, girl, girl 👩‍👩‍👧‍,👧
+family: man, boy 👨‍,👦
+family: man, boy, boy 👨‍👦‍,👦
+family: man, girl 👨‍,👧
+family: man, girl, boy 👨‍👧‍,👦
+family: man, girl, girl 👨‍👧‍,👧
+family: woman, boy 👩‍,👦
+family: woman, boy, boy 👩‍👦‍,👦
+family: woman, girl 👩‍,👧
+family: woman, girl, boy 👩‍👧‍,👦
+family: woman, girl, girl 👩‍👧‍,👧
+speaking head ,🗣
+bust in silhouette ,👤
+busts in silhouette ,👥
+footprints ,👣
+luggage ,🧳
+closed umbrella ,🌂
+umbrella ,☂
+thread ,🧵
+yarn ,🧶
+glasses ,👓
+sunglasses ,🕶
+goggles ,🥽
+lab coat ,🥼
+necktie ,👔
+t-shirt ,👕
+jeans ,👖
+scarf ,🧣
+gloves ,🧤
+coat ,🧥
+socks ,🧦
+dress ,👗
+kimono ,👘
+bikini ,👙
+woman’s clothes ,👚
+purse ,👛
+handbag ,👜
+clutch bag ,👝
+backpack ,🎒
+man’s shoe ,👞
+running shoe ,👟
+hiking boot ,🥾
+flat shoe ,🥿
+high-heeled shoe ,👠
+woman’s sandal ,👡
+woman’s boot ,👢
+crown ,👑
+woman’s hat ,👒
+top hat ,🎩
+graduation cap ,🎓
+billed cap ,🧢
+rescue worker’s helmet ,⛑
+lipstick ,💄
+ring ,💍
+briefcase ,💼
+collision ,💥
+dizzy ,💫
+sweat droplets ,💦
+dashing away ,💨
+monkey face ,🐵
+monkey ,🐒
+gorilla ,🦍
+dog face ,🐶
+dog ,🐕
+poodle ,🐩
+wolf face ,🐺
+fox face ,🦊
+raccoon ,🦝
+cat face ,🐱
+cat ,🐈
+lion face ,🦁
+tiger face ,🐯
+tiger ,🐅
+leopard ,🐆
+horse face ,🐴
+horse ,🐎
+unicorn face ,🦄
+zebra ,🦓
+cow face ,🐮
+ox ,🐂
+water buffalo ,🐃
+cow ,🐄
+pig face ,🐷
+pig ,🐖
+boar ,🐗
+pig nose ,🐽
+ram ,🐏
+ewe ,🐑
+goat ,🐐
+camel ,🐪
+two-hump camel ,🐫
+llama ,🦙
+giraffe ,🦒
+elephant ,🐘
+rhinoceros ,🦏
+hippopotamus ,🦛
+mouse face ,🐭
+mouse ,🐁
+rat ,🐀
+hamster face ,🐹
+rabbit face ,🐰
+rabbit ,🐇
+chipmunk ,🐿
+hedgehog ,🦔
+bat ,🦇
+bear face ,🐻
+koala ,🐨
+panda face ,🐼
+kangaroo ,🦘
+badger ,🦡
+paw prints ,🐾
+turkey ,🦃
+chicken ,🐔
+rooster ,🐓
+hatching chick ,🐣
+baby chick ,🐤
+front-facing baby chick ,🐥
+bird ,🐦
+penguin ,🐧
+dove ,🕊
+eagle ,🦅
+duck ,🦆
+swan ,🦢
+owl ,🦉
+peacock ,🦚
+parrot ,🦜
+frog face ,🐸
+crocodile ,🐊
+turtle ,🐢
+lizard ,🦎
+snake ,🐍
+dragon face ,🐲
+dragon ,🐉
+sauropod ,🦕
+t-rex ,🦖
+spouting whale ,🐳
+whale ,🐋
+dolphin ,🐬
+fish ,🐟
+tropical fish ,🐠
+blowfish ,🐡
+shark ,🦈
+octopus ,🐙
+spiral shell ,🐚
+snail ,🐌
+butterfly ,🦋
+bug ,🐛
+ant ,🐜
+honeybee ,🐝
+lady beetle ,🐞
+cricket ,🦗
+spider ,🕷
+spider web ,🕸
+scorpion ,🦂
+mosquito ,🦟
+microbe ,🦠
+bouquet ,💐
+cherry blossom ,🌸
+white flower ,💮
+rosette ,🏵
+rose ,🌹
+wilted flower ,🥀
+hibiscus ,🌺
+sunflower ,🌻
+blossom ,🌼
+tulip ,🌷
+seedling ,🌱
+evergreen tree ,🌲
+deciduous tree ,🌳
+palm tree ,🌴
+cactus ,🌵
+sheaf of rice ,🌾
+herb ,🌿
+shamrock ,☘
+four leaf clover ,🍀
+maple leaf ,🍁
+fallen leaf ,🍂
+leaf fluttering in wind ,🍃
+mushroom ,🍄
+chestnut ,🌰
+crab ,🦀
+lobster ,🦞
+shrimp ,🦐
+squid ,🦑
+globe showing europe-africa ,🌍
+globe showing americas ,🌎
+globe showing asia-australia ,🌏
+globe with meridians ,🌐
+new moon ,🌑
+waxing crescent moon ,🌒
+first quarter moon ,🌓
+waxing gibbous moon ,🌔
+full moon ,🌕
+waning gibbous moon ,🌖
+last quarter moon ,🌗
+waning crescent moon ,🌘
+crescent moon ,🌙
+new moon face ,🌚
+first quarter moon face ,🌛
+last quarter moon face ,🌜
+sun ,☀
+full moon face ,🌝
+sun with face ,🌞
+star ,⭐
+glowing star ,🌟
+shooting star ,🌠
+cloud ,☁
+sun behind cloud ,⛅
+cloud with lightning and rain ,⛈
+sun behind small cloud ,🌤
+sun behind large cloud ,🌥
+sun behind rain cloud ,🌦
+cloud with rain ,🌧
+cloud with snow ,🌨
+cloud with lightning ,🌩
+tornado ,🌪
+fog ,🌫
+wind face ,🌬
+rainbow ,🌈
+umbrella ,☂
+umbrella with rain drops ,☔
+high voltage ,⚡
+snowflake ,❄
+snowman ,☃
+snowman without snow ,⛄
+comet ,☄
+fire ,🔥
+droplet ,💧
+water wave ,🌊
+christmas tree ,🎄
+sparkles ,✨
+tanabata tree ,🎋
+pine decoration ,🎍
+grapes ,🍇
+melon ,🍈
+watermelon ,🍉
+tangerine ,🍊
+lemon ,🍋
+banana ,🍌
+pineapple ,🍍
+mango ,🥭
+red apple ,🍎
+green apple ,🍏
+pear ,🍐
+peach ,🍑
+cherries ,🍒
+strawberry ,🍓
+kiwi fruit ,🥝
+tomato ,🍅
+coconut ,🥥
+avocado ,🥑
+eggplant ,🍆
+potato ,🥔
+carrot ,🥕
+ear of corn ,🌽
+hot pepper ,🌶
+cucumber ,🥒
+leafy green ,🥬
+broccoli ,🥦
+mushroom ,🍄
+peanuts ,🥜
+chestnut ,🌰
+bread ,🍞
+croissant ,🥐
+baguette bread ,🥖
+pretzel ,🥨
+bagel ,🥯
+pancakes ,🥞
+cheese wedge ,🧀
+meat on bone ,🍖
+poultry leg ,🍗
+cut of meat ,🥩
+bacon ,🥓
+hamburger ,🍔
+french fries ,🍟
+pizza ,🍕
+hot dog ,🌭
+sandwich ,🥪
+taco ,🌮
+burrito ,🌯
+stuffed flatbread ,🥙
+cooking ,🍳
+shallow pan of food ,🥘
+pot of food ,🍲
+bowl with spoon ,🥣
+green salad ,🥗
+popcorn ,🍿
+salt ,🧂
+canned food ,🥫
+bento box ,🍱
+rice cracker ,🍘
+rice ball ,🍙
+cooked rice ,🍚
+curry rice ,🍛
+steaming bowl ,🍜
+spaghetti ,🍝
+roasted sweet potato ,🍠
+oden ,🍢
+sushi ,🍣
+fried shrimp ,🍤
+fish cake with swirl ,🍥
+moon cake ,🥮
+dango ,🍡
+dumpling ,🥟
+fortune cookie ,🥠
+takeout box ,🥡
+soft ice cream ,🍦
+shaved ice ,🍧
+ice cream ,🍨
+doughnut ,🍩
+cookie ,🍪
+birthday cake ,🎂
+shortcake ,🍰
+cupcake ,🧁
+pie ,🥧
+chocolate bar ,🍫
+candy ,🍬
+lollipop ,🍭
+custard ,🍮
+honey pot ,🍯
+baby bottle ,🍼
+glass of milk ,🥛
+hot beverage ,☕
+teacup without handle ,🍵
+sake ,🍶
+bottle with popping cork ,🍾
+wine glass ,🍷
+cocktail glass ,🍸
+tropical drink ,🍹
+beer mug ,🍺
+clinking beer mugs ,🍻
+clinking glasses ,🥂
+tumbler glass ,🥃
+cup with straw ,🥤
+chopsticks ,🥢
+fork and knife with plate ,🍽
+fork and knife ,🍴
+spoon ,🥄
+man in suit levitating ,🕴
+person climbing ,🧗
+man climbing 🧗‍♂,️
+woman climbing 🧗‍♀,️
+horse racing ,🏇
+skier ,⛷
+snowboarder ,🏂
+person golfing ,🏌
+man golfing 🏌️‍♂,️
+woman golfing 🏌️‍♀,️
+person surfing ,🏄
+man surfing 🏄‍♂,️
+woman surfing 🏄‍♀,️
+person rowing boat ,🚣
+man rowing boat 🚣‍♂,️
+woman rowing boat 🚣‍♀,️
+person swimming ,🏊
+man swimming 🏊‍♂,️
+woman swimming 🏊‍♀,️
+person bouncing ball ,⛹
+man bouncing ball ⛹️‍♂,️
+woman bouncing ball ⛹️‍♀,️
+person lifting weights ,🏋
+man lifting weights 🏋️‍♂,️
+woman lifting weights 🏋️‍♀,️
+person biking ,🚴
+man biking 🚴‍♂,️
+woman biking 🚴‍♀,️
+person mountain biking ,🚵
+man mountain biking 🚵‍♂,️
+woman mountain biking 🚵‍♀,️
+person cartwheeling ,🤸
+man cartwheeling 🤸‍♂,️
+woman cartwheeling 🤸‍♀,️
+people wrestling ,🤼
+men wrestling 🤼‍♂,️
+women wrestling 🤼‍♀,️
+person playing water polo ,🤽
+man playing water polo 🤽‍♂,️
+woman playing water polo 🤽‍♀,️
+person playing handball ,🤾
+man playing handball 🤾‍♂,️
+woman playing handball 🤾‍♀,️
+person juggling ,🤹
+man juggling 🤹‍♂,️
+woman juggling 🤹‍♀,️
+person in lotus position ,🧘
+man in lotus position 🧘‍♂,️
+woman in lotus position 🧘‍♀,️
+circus tent ,🎪
+skateboard ,🛹
+reminder ribbon ,🎗
+admission tickets ,🎟
+ticket ,🎫
+military medal ,🎖
+trophy ,🏆
+sports medal ,🏅
+1st place medal ,🥇
+2nd place medal ,🥈
+3rd place medal ,🥉
+soccer ball ,⚽
+baseball ,⚾
+softball ,🥎
+basketball ,🏀
+volleyball ,🏐
+american football ,🏈
+rugby football ,🏉
+tennis ,🎾
+flying disc ,🥏
+bowling ,🎳
+cricket game ,🏏
+field hockey ,🏑
+ice hockey ,🏒
+lacrosse ,🥍
+ping pong ,🏓
+badminton ,🏸
+boxing glove ,🥊
+martial arts uniform ,🥋
+flag in hole ,⛳
+ice skate ,⛸
+fishing pole ,🎣
+running shirt ,🎽
+skis ,🎿
+sled ,🛷
+curling stone ,🥌
+direct hit ,🎯
+pool 8 ball ,🎱
+video game ,🎮
+slot machine ,🎰
+game die ,🎲
+jigsaw ,🧩
+chess pawn ,♟
+performing arts ,🎭
+artist palette ,🎨
+thread ,🧵
+yarn ,🧶
+musical score ,🎼
+microphone ,🎤
+headphone ,🎧
+saxophone ,🎷
+guitar ,🎸
+musical keyboard ,🎹
+trumpet ,🎺
+violin ,🎻
+drum ,🥁
+clapper board ,🎬
+bow and arrow ,🏹
+person rowing boat ,🚣
+map of japan ,🗾
+snow-capped mountain ,🏔
+mountain ,⛰
+volcano ,🌋
+mount fuji ,🗻
+camping ,🏕
+beach with umbrella ,🏖
+desert ,🏜
+desert island ,🏝
+national park ,🏞
+stadium ,🏟
+classical building ,🏛
+building construction ,🏗
+houses ,🏘
+derelict house ,🏚
+house ,🏠
+house with garden ,🏡
+office building ,🏢
+japanese post office ,🏣
+post office ,🏤
+hospital ,🏥
+bank ,🏦
+hotel ,🏨
+love hotel ,🏩
+convenience store ,🏪
+school ,🏫
+department store ,🏬
+factory ,🏭
+japanese castle ,🏯
+castle ,🏰
+wedding ,💒
+tokyo tower ,🗼
+statue of liberty ,🗽
+church ,⛪
+mosque ,🕌
+synagogue ,🕍
+shinto shrine ,⛩
+kaaba ,🕋
+fountain ,⛲
+tent ,⛺
+foggy ,🌁
+night with stars ,🌃
+cityscape ,🏙
+sunrise over mountains ,🌄
+sunrise ,🌅
+cityscape at dusk ,🌆
+sunset ,🌇
+bridge at night ,🌉
+carousel horse ,🎠
+ferris wheel ,🎡
+roller coaster ,🎢
+locomotive ,🚂
+railway car ,🚃
+high-speed train ,🚄
+bullet train ,🚅
+train ,🚆
+metro ,🚇
+light rail ,🚈
+station ,🚉
+tram ,🚊
+monorail ,🚝
+mountain railway ,🚞
+tram car ,🚋
+bus ,🚌
+oncoming bus ,🚍
+trolleybus ,🚎
+minibus ,🚐
+ambulance ,🚑
+fire engine ,🚒
+police car ,🚓
+oncoming police car ,🚔
+taxi ,🚕
+oncoming taxi ,🚖
+automobile ,🚗
+oncoming automobile ,🚘
+delivery truck ,🚚
+articulated lorry ,🚛
+tractor ,🚜
+racing car ,🏎
+motorcycle ,🏍
+motor scooter ,🛵
+bicycle ,🚲
+kick scooter ,🛴
+bus stop ,🚏
+railway track ,🛤
+fuel pump ,⛽
+police car light ,🚨
+horizontal traffic light ,🚥
+vertical traffic light ,🚦
+construction ,🚧
+anchor ,⚓
+sailboat ,⛵
+speedboat ,🚤
+passenger ship ,🛳
+ferry ,⛴
+motor boat ,🛥
+ship ,🚢
+airplane ,✈
+small airplane ,🛩
+airplane departure ,🛫
+airplane arrival ,🛬
+seat ,💺
+helicopter ,🚁
+suspension railway ,🚟
+mountain cableway ,🚠
+aerial tramway ,🚡
+satellite ,🛰
+rocket ,🚀
+flying saucer ,🛸
+shooting star ,🌠
+milky way ,🌌
+umbrella on ground ,⛱
+fireworks ,🎆
+sparkler ,🎇
+moon viewing ceremony ,🎑
+yen banknote ,💴
+dollar banknote ,💵
+euro banknote ,💶
+pound banknote ,💷
+moai ,🗿
+passport control ,🛂
+customs ,🛃
+baggage claim ,🛄
+left luggage ,🛅
+love letter ,💌
+hole ,🕳
+bomb ,💣
+person taking bath ,🛀
+person in bed ,🛌
+kitchen knife ,🔪
+amphora ,🏺
+world map ,🗺
+compass ,🧭
+brick ,🧱
+barber pole ,💈
+oil drum ,🛢
+bellhop bell ,🛎
+luggage ,🧳
+hourglass done ,⌛
+hourglass not done ,⏳
+watch ,⌚
+alarm clock ,⏰
+stopwatch ,⏱
+timer clock ,⏲
+mantelpiece clock ,🕰
+thermometer ,🌡
+umbrella on ground ,⛱
+firecracker ,🧨
+balloon ,🎈
+party popper ,🎉
+confetti ball ,🎊
+japanese dolls ,🎎
+carp streamer ,🎏
+wind chime ,🎐
+red envelope ,🧧
+ribbon ,🎀
+wrapped gift ,🎁
+crystal ball ,🔮
+nazar amulet ,🧿
+joystick ,🕹
+teddy bear ,🧸
+framed picture ,🖼
+thread ,🧵
+yarn ,🧶
+shopping bags ,🛍
+prayer beads ,📿
+gem stone ,💎
+postal horn ,📯
+studio microphone ,🎙
+level slider ,🎚
+control knobs ,🎛
+radio ,📻
+mobile phone ,📱
+mobile phone with arrow ,📲
+telephone ,☎
+telephone receiver ,📞
+pager ,📟
+fax machine ,📠
+battery ,🔋
+electric plug ,🔌
+laptop computer ,💻
+desktop computer ,🖥
+printer ,🖨
+keyboard ,⌨
+computer mouse ,🖱
+trackball ,🖲
+computer disk ,💽
+floppy disk ,💾
+optical disk ,💿
+dvd ,📀
+abacus ,🧮
+movie camera ,🎥
+film frames ,🎞
+film projector ,📽
+television ,📺
+camera ,📷
+camera with flash ,📸
+video camera ,📹
+videocassette ,📼
+magnifying glass tilted left ,🔍
+magnifying glass tilted right ,🔎
+candle ,🕯
+light bulb ,💡
+flashlight ,🔦
+red paper lantern ,🏮
+notebook with decorative cover ,📔
+closed book ,📕
+open book ,📖
+green book ,📗
+blue book ,📘
+orange book ,📙
+books ,📚
+notebook ,📓
+page with curl ,📃
+scroll ,📜
+page facing up ,📄
+newspaper ,📰
+rolled-up newspaper ,🗞
+bookmark tabs ,📑
+bookmark ,🔖
+label ,🏷
+money bag ,💰
+yen banknote ,💴
+dollar banknote ,💵
+euro banknote ,💶
+pound banknote ,💷
+money with wings ,💸
+credit card ,💳
+receipt ,🧾
+envelope ,✉
+e-mail ,📧
+incoming envelope ,📨
+envelope with arrow ,📩
+outbox tray ,📤
+inbox tray ,📥
+package ,📦
+closed mailbox with raised flag ,📫
+closed mailbox with lowered flag ,📪
+open mailbox with raised flag ,📬
+open mailbox with lowered flag ,📭
+postbox ,📮
+ballot box with ballot ,🗳
+pencil ,✏
+black nib ,✒
+fountain pen ,🖋
+pen ,🖊
+paintbrush ,🖌
+crayon ,🖍
+memo ,📝
+file folder ,📁
+open file folder ,📂
+card index dividers ,🗂
+calendar ,📅
+tear-off calendar ,📆
+spiral notepad ,🗒
+spiral calendar ,🗓
+card index ,📇
+chart increasing ,📈
+chart decreasing ,📉
+bar chart ,📊
+clipboard ,📋
+pushpin ,📌
+round pushpin ,📍
+paperclip ,📎
+linked paperclips ,🖇
+straight ruler ,📏
+triangular ruler ,📐
+scissors ,✂
+card file box ,🗃
+file cabinet ,🗄
+wastebasket ,🗑
+locked ,🔒
+unlocked ,🔓
+locked with pen ,🔏
+locked with key ,🔐
+key ,🔑
+old key ,🗝
+hammer ,🔨
+pick ,⛏
+hammer and pick ,⚒
+hammer and wrench ,🛠
+dagger ,🗡
+crossed swords ,⚔
+pistol ,🔫
+shield ,🛡
+wrench ,🔧
+nut and bolt ,🔩
+gear ,⚙
+clamp ,🗜
+balance scale ,⚖
+link ,🔗
+chains ,⛓
+toolbox ,🧰
+magnet ,🧲
+alembic ,⚗
+test tube ,🧪
+petri dish ,🧫
+dna ,🧬
+microscope ,🔬
+telescope ,🔭
+satellite antenna ,📡
+syringe ,💉
+pill ,💊
+door ,🚪
+bed ,🛏
+couch and lamp ,🛋
+toilet ,🚽
+shower ,🚿
+bathtub ,🛁
+lotion bottle ,🧴
+safety pin ,🧷
+broom ,🧹
+basket ,🧺
+roll of paper ,🧻
+soap ,🧼
+sponge ,🧽
+fire extinguisher ,🧯
+cigarette ,🚬
+coffin ,⚰
+funeral urn ,⚱
+moai ,🗿
+potable water ,🚰
+heart with arrow ,💘
+heart with ribbon ,💝
+sparkling heart ,💖
+growing heart ,💗
+beating heart ,💓
+revolving hearts ,💞
+two hearts ,💕
+heart decoration ,💟
+heavy heart exclamation ,❣
+broken heart ,💔
+red heart ,❤
+orange heart ,🧡
+yellow heart ,💛
+green heart ,💚
+blue heart ,💙
+purple heart ,💜
+black heart ,🖤
+hundred points ,💯
+anger symbol ,💢
+speech balloon ,💬
+eye in speech bubble 👁️‍🗨,️
+right anger bubble ,🗯
+thought balloon ,💭
+zzz ,💤
+white flower ,💮
+hot springs ,♨
+barber pole ,💈
+stop sign ,🛑
+twelve o’clock ,🕛
+twelve-thirty ,🕧
+one o’clock ,🕐
+one-thirty ,🕜
+two o’clock ,🕑
+two-thirty ,🕝
+three o’clock ,🕒
+three-thirty ,🕞
+four o’clock ,🕓
+four-thirty ,🕟
+five o’clock ,🕔
+five-thirty ,🕠
+six o’clock ,🕕
+six-thirty ,🕡
+seven o’clock ,🕖
+seven-thirty ,🕢
+eight o’clock ,🕗
+eight-thirty ,🕣
+nine o’clock ,🕘
+nine-thirty ,🕤
+ten o’clock ,🕙
+ten-thirty ,🕥
+eleven o’clock ,🕚
+eleven-thirty ,🕦
+cyclone ,🌀
+spade suit ,♠
+heart suit ,♥
+diamond suit ,♦
+club suit ,♣
+joker ,🃏
+mahjong red dragon ,🀄
+flower playing cards ,🎴
+muted speaker ,🔇
+speaker low volume ,🔈
+speaker medium volume ,🔉
+speaker high volume ,🔊
+loudspeaker ,📢
+megaphone ,📣
+postal horn ,📯
+bell ,🔔
+bell with slash ,🔕
+musical note ,🎵
+musical notes ,🎶
+atm sign ,🏧
+litter in bin sign ,🚮
+potable water ,🚰
+wheelchair symbol ,♿
+men’s room ,🚹
+women’s room ,🚺
+restroom ,🚻
+baby symbol ,🚼
+water closet ,🚾
+warning ,⚠
+children crossing ,🚸
+no entry ,⛔
+prohibited ,🚫
+no bicycles ,🚳
+no smoking ,🚭
+no littering ,🚯
+non-potable water ,🚱
+no pedestrians ,🚷
+no one under eighteen ,🔞
+radioactive ,☢
+biohazard ,☣
+up arrow ,⬆
+up-right arrow ,↗
+right arrow ,➡
+down-right arrow ,↘
+down arrow ,⬇
+down-left arrow ,↙
+left arrow ,⬅
+up-left arrow ,↖
+up-down arrow ,↕
+left-right arrow ,↔
+right arrow curving left ,↩
+left arrow curving right ,↪
+right arrow curving up ,⤴
+right arrow curving down ,⤵
+clockwise vertical arrows ,🔃
+counterclockwise arrows button ,🔄
+back arrow ,🔙
+end arrow ,🔚
+on! arrow ,🔛
+soon arrow ,🔜
+top arrow ,🔝
+place of worship ,🛐
+atom symbol ,⚛
+om ,🕉
+star of david ,✡
+wheel of dharma ,☸
+yin yang ,☯
+latin cross ,✝
+orthodox cross ,☦
+star and crescent ,☪
+peace symbol ,☮
+menorah ,🕎
+dotted six-pointed star ,🔯
+aries ,♈
+taurus ,♉
+gemini ,♊
+cancer ,♋
+leo ,♌
+virgo ,♍
+libra ,♎
+scorpio ,♏
+sagittarius ,♐
+capricorn ,♑
+aquarius ,♒
+pisces ,♓
+ophiuchus ,⛎
+shuffle tracks button ,🔀
+repeat button ,🔁
+repeat single button ,🔂
+play button ,▶
+fast-forward button ,⏩
+reverse button ,◀
+fast reverse button ,⏪
+upwards button ,🔼
+fast up button ,⏫
+downwards button ,🔽
+fast down button ,⏬
+stop button ,⏹
+eject button ,⏏
+cinema ,🎦
+dim button ,🔅
+bright button ,🔆
+antenna bars ,📶
+vibration mode ,📳
+mobile phone off ,📴
+infinity ,♾
+recycling symbol ,♻
+trident emblem ,🔱
+name badge ,📛
+japanese symbol for beginner ,🔰
+heavy large circle ,⭕
+white heavy check mark ,✅
+ballot box with check ,☑
+heavy check mark ,✔
+heavy multiplication x ,✖
+cross mark ,❌
+cross mark button ,❎
+heavy plus sign ,➕
+heavy minus sign ,➖
+heavy division sign ,➗
+curly loop ,➰
+double curly loop ,➿
+part alternation mark ,〽
+eight-spoked asterisk ,✳
+eight-pointed star ,✴
+sparkle ,❇
+double exclamation mark ,‼
+exclamation question mark ,⁉
+question mark ,❓
+white question mark ,❔
+white exclamation mark ,❕
+exclamation mark ,❗
+copyright ,©
+registered ,®
+trade mark ,™
+keycap number sign #️,⃣
+keycap digit zero 0️,⃣
+keycap digit one 1️,⃣
+keycap digit two 2️,⃣
+keycap digit three 3️,⃣
+keycap digit four 4️,⃣
+keycap digit five 5️,⃣
+keycap digit six 6️,⃣
+keycap digit seven 7️,⃣
+keycap digit eight 8️,⃣
+keycap digit nine 9️,⃣
+keycap: 10 ,🔟
+input latin uppercase ,🔠
+input latin lowercase ,🔡
+input numbers ,🔢
+input symbols ,🔣
+input latin letters ,🔤
+a button (blood type) ,🅰
+ab button (blood type) ,🆎
+b button (blood type) ,🅱
+cl button ,🆑
+cool button ,🆒
+free button ,🆓
+information ,ℹ
+id button ,🆔
+circled m ,ⓜ
+new button ,🆕
+ng button ,🆖
+o button (blood type) ,🅾
+ok button ,🆗
+p button ,🅿
+sos button ,🆘
+up! button ,🆙
+vs button ,🆚
+japanese “here” button ,🈁
+japanese “service charge” button ,🈂
+japanese “monthly amount” button ,🈷
+japanese “not free of charge” button ,🈶
+japanese “reserved” button ,🈯
+japanese “bargain” button ,🉐
+japanese “discount” button ,🈹
+japanese “free of charge” button ,🈚
+japanese “prohibited” button ,🈲
+japanese “acceptable” button ,🉑
+japanese “application” button ,🈸
+japanese “passing grade” button ,🈴
+japanese “vacancy” button ,🈳
+japanese “congratulations” button ,㊗
+japanese “secret” button ,㊙
+japanese “open for business” button ,🈺
+japanese “no vacancy” button ,🈵
+red circle ,🔴
+blue circle ,🔵
+black circle ,⚫
+white circle ,⚪
+black large square ,⬛
+white large square ,⬜
+black medium square ,◼
+white medium square ,◻
+black medium-small square ,◾
+white medium-small square ,◽
+black small square ,▪
+white small square ,▫
+large orange diamond ,🔶
+large blue diamond ,🔷
+small orange diamond ,🔸
+small blue diamond ,🔹
+red triangle pointed up ,🔺
+red triangle pointed down ,🔻
+diamond with a dot ,💠
+white square button ,🔳
+black square button ,🔲
+chequered flag ,🏁
+triangular flag ,🚩
+crossed flags ,🎌
+black flag ,🏴
+white flag ,🏳
+rainbow flag 🏳️‍,🌈
+pirate flag 🏴‍☠,️
+flag: ascension island 🇦,🇨
+flag: andorra 🇦,🇩
+flag: united arab emirates 🇦,🇪
+flag: afghanistan 🇦,🇫
+flag: antigua &amp; barbuda 🇦,🇬
+flag: anguilla 🇦,🇮
+flag: albania 🇦,🇱
+flag: armenia 🇦,🇲
+flag: angola 🇦,🇴
+flag: antarctica 🇦,🇶
+flag: argentina 🇦,🇷
+flag: american samoa 🇦,🇸
+flag: austria 🇦,🇹
+flag: australia 🇦,🇺
+flag: aruba 🇦,🇼
+flag: åland islands 🇦,🇽
+flag: azerbaijan 🇦,🇿
+flag: bosnia &amp; herzegovina 🇧,🇦
+flag: barbados 🇧,🇧
+flag: bangladesh 🇧,🇩
+flag: belgium 🇧,🇪
+flag: burkina faso 🇧,🇫
+flag: bulgaria 🇧,🇬
+flag: bahrain 🇧,🇭
+flag: burundi 🇧,🇮
+flag: benin 🇧,🇯
+flag: st. barthélemy 🇧,🇱
+flag: bermuda 🇧,🇲
+flag: brunei 🇧,🇳
+flag: bolivia 🇧,🇴
+flag: caribbean netherlands 🇧,🇶
+flag: brazil 🇧,🇷
+flag: bahamas 🇧,🇸
+flag: bhutan 🇧,🇹
+flag: bouvet island 🇧,🇻
+flag: botswana 🇧,🇼
+flag: belarus 🇧,🇾
+flag: belize 🇧,🇿
+flag: canada 🇨,🇦
+flag: cocos (keeling) islands 🇨,🇨
+flag: congo - kinshasa 🇨,🇩
+flag: central african republic 🇨,🇫
+flag: congo - brazzaville 🇨,🇬
+flag: switzerland 🇨,🇭
+flag: côte d’ivoire 🇨,🇮
+flag: cook islands 🇨,🇰
+flag: chile 🇨,🇱
+flag: cameroon 🇨,🇲
+flag: china 🇨,🇳
+flag: colombia 🇨,🇴
+flag: clipperton island 🇨,🇵
+flag: costa rica 🇨,🇷
+flag: cuba 🇨,🇺
+flag: cape verde 🇨,🇻
+flag: curaçao 🇨,🇼
+flag: christmas island 🇨,🇽
+flag: cyprus 🇨,🇾
+flag: czechia 🇨,🇿
+flag: germany 🇩,🇪
+flag: diego garcia 🇩,🇬
+flag: djibouti 🇩,🇯
+flag: denmark 🇩,🇰
+flag: dominica 🇩,🇲
+flag: dominican republic 🇩,🇴
+flag: algeria 🇩,🇿
+flag: ceuta &amp; melilla 🇪,🇦
+flag: ecuador 🇪,🇨
+flag: estonia 🇪,🇪
+flag: egypt 🇪,🇬
+flag: western sahara 🇪,🇭
+flag: eritrea 🇪,🇷
+flag: spain 🇪,🇸
+flag: ethiopia 🇪,🇹
+flag: european union 🇪,🇺
+flag: finland 🇫,🇮
+flag: fiji 🇫,🇯
+flag: falkland islands 🇫,🇰
+flag: micronesia 🇫,🇲
+flag: faroe islands 🇫,🇴
+flag: france 🇫,🇷
+flag: gabon 🇬,🇦
+flag: united kingdom 🇬,🇧
+flag: grenada 🇬,🇩
+flag: georgia 🇬,🇪
+flag: french guiana 🇬,🇫
+flag: guernsey 🇬,🇬
+flag: ghana 🇬,🇭
+flag: gibraltar 🇬,🇮
+flag: greenland 🇬,🇱
+flag: gambia 🇬,🇲
+flag: guinea 🇬,🇳
+flag: guadeloupe 🇬,🇵
+flag: equatorial guinea 🇬,🇶
+flag: greece 🇬,🇷
+flag: south georgia &amp; south sandwich islands 🇬,🇸
+flag: guatemala 🇬,🇹
+flag: guam 🇬,🇺
+flag: guinea-bissau 🇬,🇼
+flag: guyana 🇬,🇾
+flag: hong kong sar china 🇭,🇰
+flag: heard &amp; mcdonald islands 🇭,🇲
+flag: honduras 🇭,🇳
+flag: croatia 🇭,🇷
+flag: haiti 🇭,🇹
+flag: hungary 🇭,🇺
+flag: canary islands 🇮,🇨
+flag: indonesia 🇮,🇩
+flag: ireland 🇮,🇪
+flag: israel 🇮,🇱
+flag: isle of man 🇮,🇲
+flag: india 🇮,🇳
+flag: british indian ocean territory 🇮,🇴
+flag: iraq 🇮,🇶
+flag: iran 🇮,🇷
+flag: iceland 🇮,🇸
+flag: italy 🇮,🇹
+flag: jersey 🇯,🇪
+flag: jamaica 🇯,🇲
+flag: jordan 🇯,🇴
+flag: japan 🇯,🇵
+flag: kenya 🇰,🇪
+flag: kyrgyzstan 🇰,🇬
+flag: cambodia 🇰,🇭
+flag: kiribati 🇰,🇮
+flag: comoros 🇰,🇲
+flag: st. kitts &amp; nevis 🇰,🇳
+flag: north korea 🇰,🇵
+flag: south korea 🇰,🇷
+flag: kuwait 🇰,🇼
+flag: cayman islands 🇰,🇾
+flag: kazakhstan 🇰,🇿
+flag: laos 🇱,🇦
+flag: lebanon 🇱,🇧
+flag: st. lucia 🇱,🇨
+flag: liechtenstein 🇱,🇮
+flag: sri lanka 🇱,🇰
+flag: liberia 🇱,🇷
+flag: lesotho 🇱,🇸
+flag: lithuania 🇱,🇹
+flag: luxembourg 🇱,🇺
+flag: latvia 🇱,🇻
+flag: libya 🇱,🇾
+flag: morocco 🇲,🇦
+flag: monaco 🇲,🇨
+flag: moldova 🇲,🇩
+flag: montenegro 🇲,🇪
+flag: st. martin 🇲,🇫
+flag: madagascar 🇲,🇬
+flag: marshall islands 🇲,🇭
+flag: north macedonia 🇲,🇰
+flag: mali 🇲,🇱
+flag: myanmar (burma) 🇲,🇲
+flag: mongolia 🇲,🇳
+flag: macau sar china 🇲,🇴
+flag: northern mariana islands 🇲,🇵
+flag: martinique 🇲,🇶
+flag: mauritania 🇲,🇷
+flag: montserrat 🇲,🇸
+flag: malta 🇲,🇹
+flag: mauritius 🇲,🇺
+flag: maldives 🇲,🇻
+flag: malawi 🇲,🇼
+flag: mexico 🇲,🇽
+flag: malaysia 🇲,🇾
+flag: mozambique 🇲,🇿
+flag: namibia 🇳,🇦
+flag: new caledonia 🇳,🇨
+flag: niger 🇳,🇪
+flag: norfolk island 🇳,🇫
+flag: nigeria 🇳,🇬
+flag: nicaragua 🇳,🇮
+flag: netherlands 🇳,🇱
+flag: norway 🇳,🇴
+flag: nepal 🇳,🇵
+flag: nauru 🇳,🇷
+flag: niue 🇳,🇺
+flag: new zealand 🇳,🇿
+flag: oman 🇴,🇲
+flag: panama 🇵,🇦
+flag: peru 🇵,🇪
+flag: french polynesia 🇵,🇫
+flag: papua new guinea 🇵,🇬
+flag: philippines 🇵,🇭
+flag: pakistan 🇵,🇰
+flag: poland 🇵,🇱
+flag: st. pierre &amp; miquelon 🇵,🇲
+flag: pitcairn islands 🇵,🇳
+flag: puerto rico 🇵,🇷
+flag: palestinian territories 🇵,🇸
+flag: portugal 🇵,🇹
+flag: palau 🇵,🇼
+flag: paraguay 🇵,🇾
+flag: qatar 🇶,🇦
+flag: réunion 🇷,🇪
+flag: romania 🇷,🇴
+flag: serbia 🇷,🇸
+flag: russia 🇷,🇺
+flag: rwanda 🇷,🇼
+flag: saudi arabia 🇸,🇦
+flag: solomon islands 🇸,🇧
+flag: seychelles 🇸,🇨
+flag: sudan 🇸,🇩
+flag: sweden 🇸,🇪
+flag: singapore 🇸,🇬
+flag: st. helena 🇸,🇭
+flag: slovenia 🇸,🇮
+flag: svalbard &amp; jan mayen 🇸,🇯
+flag: slovakia 🇸,🇰
+flag: sierra leone 🇸,🇱
+flag: san marino 🇸,🇲
+flag: senegal 🇸,🇳
+flag: somalia 🇸,🇴
+flag: suriname 🇸,🇷
+flag: south sudan 🇸,🇸
+flag: são tomé &amp; príncipe 🇸,🇹
+flag: el salvador 🇸,🇻
+flag: sint maarten 🇸,🇽
+flag: syria 🇸,🇾
+flag: swaziland 🇸,🇿
+flag: tristan da cunha 🇹,🇦
+flag: turks &amp; caicos islands 🇹,🇨
+flag: chad 🇹,🇩
+flag: french southern territories 🇹,🇫
+flag: togo 🇹,🇬
+flag: thailand 🇹,🇭
+flag: tajikistan 🇹,🇯
+flag: tokelau 🇹,🇰
+flag: timor-leste 🇹,🇱
+flag: turkmenistan 🇹,🇲
+flag: tunisia 🇹,🇳
+flag: tonga 🇹,🇴
+flag: turkey 🇹,🇷
+flag: trinidad &amp; tobago 🇹,🇹
+flag: tuvalu 🇹,🇻
+flag: taiwan 🇹,🇼
+flag: tanzania 🇹,🇿
+flag: ukraine 🇺,🇦
+flag: uganda 🇺,🇬
+flag: u.s. outlying islands 🇺,🇲
+flag: united nations 🇺,🇳
+flag: united states 🇺,🇸
+flag: uruguay 🇺,🇾
+flag: uzbekistan 🇺,🇿
+flag: vatican city 🇻,🇦
+flag: st. vincent &amp; grenadines 🇻,🇨
+flag: venezuela 🇻,🇪
+flag: british virgin islands 🇻,🇬
+flag: u.s. virgin islands 🇻,🇮
+flag: vietnam 🇻,🇳
+flag: vanuatu 🇻,🇺
+flag: wallis &amp; futuna 🇼,🇫
+flag: samoa 🇼,🇸
+flag: kosovo 🇽,🇰
+flag: yemen 🇾,🇪
+flag: mayotte 🇾,🇹
+flag: south africa 🇿,🇦
+flag: zambia 🇿,🇲
+flag: zimbabwe 🇿,🇼
+flag: england 🏴󠁧󠁢󠁥󠁮󠁧,󠁿
+flag: scotland 🏴󠁧󠁢󠁳󠁣󠁴,󠁿
+flag: wales 🏴󠁧󠁢󠁷󠁬󠁳,󠁿
+blue, pink, and white flag 🏳️‍⚧,️
