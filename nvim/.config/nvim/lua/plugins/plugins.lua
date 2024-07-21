@@ -1,11 +1,14 @@
 return {
   -- Is this how to use mason.nvim?
   {
+    "sindrets/diffview.nvim",
+  },
+  {
     "williamboman/mason.nvim",
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
         "pyright",
-        "black",
+        -- "black",
         "ruff",
         "ruff-lsp",
       })
