@@ -35,8 +35,8 @@ alias todo="grep TODO -nRI --exclude=*.csv *"
 
 # cURL an URL and get response time
 # ref: https://stackoverflow.com/a/22625150/13095028
-curltime () {
-    curl -w @- -o /dev/null -s "$1" <<'EOF'
+curltime() {
+	curl -w @- -o /dev/null -s "$1" <<'EOF'
     time_namelookup:  %{time_namelookup}\n
        time_connect:  %{time_connect}\n
     time_appconnect:  %{time_appconnect}\n
@@ -50,35 +50,35 @@ EOF
 
 # Opens a focus window in tmux
 # Close the whole thing using Ctrl-b, &
-focuspane(){
-    # Check if not in a tmux session
-    if [[ -z "$TMUX" ]]; then
-        # Attach tmux session if available, else create one
-        tmux a || tmux
-    fi
+focuspane() {
+	# Check if not in a tmux session
+	if [[ -z "$TMUX" ]]; then
+		# Attach tmux session if available, else create one
+		tmux a || tmux
+	fi
 
-    # Open a new window
-    tmux new-window
+	# Open a new window
+	tmux new-window
 
-    # Split out two vertical panes
-    tmux split-window -h
-    tmux split-window -h
+	# Split out two vertical panes
+	tmux split-window -h
+	tmux split-window -h
 
-    # Resize to uniform size
-    tmux select-layout even-horizontal
+	# Resize to uniform size
+	tmux select-layout even-horizontal
 
-    # Shrink left and right pane
-    tmux select-pane -t 0
-    tmux resize-pane -L 30
-    tmux select-pane -t 2
-    tmux resize-pane -R 30
-    
-    # Open cmatrix on left and right pane
-    tmux select-pane -t 0
-    tmux send-keys cmatrix C-m
-    tmux select-pane -t 2
-    tmux send-keys cmatrix C-m
-    
-    # Return cursor to middle pane
-    tmux select-pane -t 1
+	# Shrink left and right pane
+	tmux select-pane -t 0
+	tmux resize-pane -L 30
+	tmux select-pane -t 2
+	tmux resize-pane -R 30
+
+	# Open cmatrix on left and right pane
+	tmux select-pane -t 0
+	tmux send-keys cmatrix C-m
+	tmux select-pane -t 2
+	tmux send-keys cmatrix C-m
+
+	# Return cursor to middle pane
+	tmux select-pane -t 1
 }
