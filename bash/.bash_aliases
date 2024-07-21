@@ -1,3 +1,6 @@
+# isort using ruff
+alias risort='ruff check --select I --fix'
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
