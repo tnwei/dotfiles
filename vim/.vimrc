@@ -29,10 +29,14 @@ Plug 'Yggdroot/indentLine'
 " Initialize plugin system
 call plug#end()
 
-" For serenade and everforest
-if has('termguicolors')
-  set termguicolors
+" Set termguicolors for serenade and everforest
+" With careful handling for tmux
+" Ref: https://stackoverflow.com/a/76362747/13095028
+if !has('gui_running') && &term =~ '\%(screen\|tmux\)'
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 endif
+set termguicolors
 
 
 " Prefer serenade over everforest, everforest contrast too low for me
