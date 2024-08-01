@@ -88,10 +88,10 @@ return {
       end
       return vim.tbl_deep_extend("force", opts, {
         name = {
-          "venv",
-          ".venv",
-          "env",
-          ".env",
+          -- "venv",
+          -- ".venv",
+          -- "env",
+          -- ".env",
         },
         anaconda_base_path = "/home/tnwei/miniforge3",
         anaconda_envs_path = "/home/tnwei/miniforge3/envs",
