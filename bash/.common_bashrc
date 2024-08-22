@@ -122,3 +122,15 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# This is here because the foot terminal is too faithful to VT100
+# Ctrl-L is usually intercepted by terminals to scroll screen content
+# In foot, it is passed directly to the shell which typically
+# results in the screen being literally cleared
+# https://codeberg.org/dnkl/foot/wiki#user-content-how-do-i-make-ctrl-l-scroll-the-content-instead-of-erasing-it
+clear-screen-keep-sb() {
+    printf '\e[%dS' $((LINES-1))
+    tput -x clear
+}
+bind -x '"\C-l":"clear-screen-keep-sb"'
