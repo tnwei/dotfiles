@@ -212,7 +212,7 @@ let g:vim_markdown_conceal_code_blocks = 0
 " Use wl-copy for yank and paste
 " https://www.reddit.com/r/Fedora/comments/ax9p9t/comment/jbs8pom/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 " Making sure it only runs on Wayland
-if has('unix') && !empty($WAYLAND_DISPLAY)
+if has('unix') && executable('wl-paste')
     autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
     nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
 endif
