@@ -217,6 +217,6 @@ if has('unix') && executable('wl-paste')
     nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
 endif
 
-# Work this in one day for WSL detection
-# to use :w !clip.exe
-# https://stackoverflow.com/a/57020870/13095028
+" Work this in one day for WSL detection
+" to use :w !clip.exe
+" https://stackoverflow.com/a/57020870/13095028
