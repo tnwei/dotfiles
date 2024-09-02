@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Manually install
-# glow stpv lf neo zoxide
+# glow stpv lf neo zoxide fd
 
 CORE_PKGS=(
     "gcc"
@@ -17,7 +17,6 @@ CORE_PKGS=(
     "tmux"
     "vim"
     "stow"
-    "fd"
     "neovim"
 )
 
