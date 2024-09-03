@@ -134,3 +134,6 @@ clear-screen-keep-sb() {
     tput -x clear
 }
 bind -x '"\C-l":"clear-screen-keep-sb"'
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
