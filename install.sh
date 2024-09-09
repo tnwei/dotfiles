@@ -32,6 +32,7 @@ PIPX_PKGS=(
 HYPRLAND_PKGS=(
     "hyprland"
     "hyprlock"
+    "hypridle"
     "wl-clipboard"
     "waybar"
     "gnome-tweaks"
@@ -42,7 +43,6 @@ HYPRLAND_PKGS=(
     "slurp"
     "wofi"
     "foot"
-    "swayidle"
     "blueman"
     "chafa"
     "pavucontrol"
