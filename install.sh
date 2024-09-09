@@ -31,13 +31,13 @@ PIPX_PKGS=(
 
 HYPRLAND_PKGS=(
     "hyprland"
+    "hyprlock"
     "wl-clipboard"
     "waybar"
     "gnome-tweaks"
     "swaybg"
     "polkit-gnome"
     "dunst"
-    "swaylock"
     "grim"
     "slurp"
     "wofi"
