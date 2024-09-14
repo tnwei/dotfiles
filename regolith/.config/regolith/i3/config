@@ -62,7 +62,7 @@ set_from_resource $rofiTheme rofi.theme "regolith-theme"
 # bindsym $mod+space exec rofi -show drun -font "IBM Plex Mono Bold 15"
 # This uses nord theme in .config/rofi/themes, different from regolith-theme!
 # Change the font there! Font here doesn't apply
-bindsym $mod+space exec rofi -show drun -font "Crimson Text 15"
+bindsym $mod+o exec rofi -show drun -font "Crimson Text 15"
 
 # Font seems to be tied to the theme?
 # https://www.reddit.com/r/archlinux/comments/anrqai/rofi_font_configuration/
