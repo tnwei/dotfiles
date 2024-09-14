@@ -5,5 +5,5 @@ configuration {
 	icon-theme: "Adwaita";
 	drun-display-format: "{name}";
 	window-format: " {n} {t}";
-	theme: "/home/tnwei/.config/rofi/themes/squared-nord-modified.rasi";
 }
+@theme "/home/tnwei/.config/rofi/themes/squared-nord-modified.rasi"
