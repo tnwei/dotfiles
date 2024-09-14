@@ -25,7 +25,7 @@ fi
 
 case $SELECTED in
 lock)
-	$HOME/.local/scripts/swaylock-fancy.sh
+    hyprlock
 	;;
 logout)
 	if zenity --question --icon system-log-out --title="Logout"; then
