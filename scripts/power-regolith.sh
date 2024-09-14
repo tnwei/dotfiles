@@ -21,26 +21,28 @@ else
 	SELECTED=$1
 fi
 
+# Note: tested on zenity 3.42.1
 case $SELECTED in
 lock)
     gnome-screensaver-command -l
 	;;
-logout)
-	if zenity --question --icon system-log-out --title="Logout"; then
-		gnome-session-quit
-	fi
-	;;
+# doesn't work for some reason??
+# logout)
+# 	if zenity --question --icon-name system-log-out --title="Logout"; then
+# 		gnome-session-quit --logout
+# 	fi
+	# ;;
 suspend)
     # Skip confirmation for sleep, just like locking screen
     systemctl suspend
 	;;
 reboot)
-	if zenity --question --icon system-reboot --title="Reboot"; then
+	if zenity --question --icon-name system-reboot --title="Reboot"; then
 		systemctl reboot
 	fi
 	;;
 shutdown)
-	if zenity --question --icon system-shutdown --title="Shutdown"; then
+	if zenity --question --icon-name system-shutdown --title="Shutdown"; then
 		systemctl poweroff -i
 	fi
 	;;
