@@ -5,10 +5,10 @@
 # https://specifications.freedesktop.org/icon-naming-spec/latest/ar01s04.html
 
 # Check if rofi or wofi is installed in the first place
-if command -v wofi &> /dev/null; then
-    LAUNCHER="wofi"
+if command -v rofi &> /dev/null; then
+    LAUNCHER="rofi"
 else
-    echo "Error: wofi is not found in PATH."
+    echo "Error: rofi is not found in the PATH."
     exit 1
 fi
 
@@ -16,18 +16,18 @@ fi
 # https://unix.stackexchange.com/a/25947
 if [ $# -eq 0 ]; then
 	ENTRIES=" Lock\n Logout\n Suspend\n Reboot\n Shutdown"
-	SELECTED=$(echo -e $ENTRIES | $LAUNCHER --prompt "Power Menu" --width 120 --height 250 --dmenu --cache-file /dev/null | awk '{print tolower($2)}')
+	SELECTED=$(echo -e $ENTRIES | $LAUNCHER -dmenu -p "Power Menu" -cache-file /dev/null | awk '{print tolower($2)}')
 else
 	SELECTED=$1
 fi
 
 case $SELECTED in
 lock)
-    hyprlock
+    gnome-screensaver-command -l
 	;;
 logout)
 	if zenity --question --icon system-log-out --title="Logout"; then
-		hyprctl dispatch exit
+		gnome-session-quit
 	fi
 	;;
 suspend)
