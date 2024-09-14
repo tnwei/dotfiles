@@ -1,7 +1,14 @@
 #! /bin/bash
 
-# Manually install
-# glow stpv lf neo zoxide fd
+# Still have to manually install
+# glow stpv lf neo
+
+# Associative array for gh_tools
+declare -A GH_TOOLS
+
+GH_TOOLS["uv"]="curl -LsSf https://astral.sh/uv/install.sh | sh"
+GH_TOOLS["zoxide"]="curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh"
+
 
 CORE_PKGS=(
     "gcc"
@@ -29,7 +36,7 @@ PIPX_PKGS=(
     "git+https://github.com/tnwei/nbread"
 )
 
-HYPRLAND_PKGS=(
+HYPRLAND_DESKTOP_PKGS=(
     "hyprland"
     "hyprlock"
     "hypridle"
@@ -56,7 +63,7 @@ HYPRLAND_PKGS=(
 )
 
 PERSONAL_PC_PKGS=(
-    "syncthing" "hugo" "transmission"
+    "hugo" "transmission"
 )
 
 
@@ -96,14 +103,14 @@ done
 
 # Ask if want to install hyprland packages
 echo -e "Following are Hyprland packages:\n"
-echo ${HYPRLAND_PKGS[*]}
+echo ${HYPRLAND_DESKTOP_PKGS[*]}
 echo ""
 
 while true; do
     read -p  "Would you like to install them? (y/n) " ADD_HYPRLAND
 
     if [[ $ADD_HYPRLAND == "y" ]]; then
-        PKGS_TO_INSTALL+=( "${HYPRLAND_PKGS[@]}" )
+        PKGS_TO_INSTALL+=( "${HYPRLAND_DESKTOP_PKGS[@]}" )
         echo ""
         break
     elif [[ $ADD_HYPRLAND == "n" ]]; then
@@ -145,8 +152,35 @@ else
     echo ""
 fi
 
+# Run gh tool installs
+echo -e "The following tools will be installed with the following commands:\n"
+for tool in "${!GH_TOOLS[@]}"; do
+    echo "- $tool: ${GH_TOOLS[$tool]}"
+done
+echo ""
+
+while true; do
+    read -p "Would you like to install them? (y/n) " INSTALL_GH_TOOLS
+
+    if [[ $INSTALL_GH_TOOLS == "y" ]]; then
+        # Install each tool
+        for tool in "${!GH_TOOLS[@]}"; do
+            echo "Installing $tool..."
+            eval "${GH_TOOLS[$tool]}"
+            echo "$tool installation completed."
+            echo ""
+        done
+        break
+    elif [[ $INSTALL_GH_TOOLS == "n" ]]; then
+        echo ""
+        break
+    else
+        echo "Invalid input, y/n only"
+    fi
+done
+
 # Run pipx installs
-echo -e "The following packages will be installed by pipx:\n"
+echo -e "The following packages will be installed with "uv" (ensure is installed!):\n"
 echo ${PIPX_PKGS[@]}
 echo ""
 
@@ -155,7 +189,7 @@ while true; do
 
     if [[ $ADD_PIPX == "y" ]]; then
         for package in "${PIPX_PKGS[@]}"; do
-            pipx install $package
+            uv tool install $package --force
         done
         echo ""
         break
