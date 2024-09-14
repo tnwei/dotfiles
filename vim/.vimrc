@@ -187,7 +187,6 @@ set shiftwidth=4
 " ref: https://www.arthurkoziel.com/setting-up-vim-for-yaml/
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
-
 " Map F9 to run .py files
 " This will drop to shell to run
 " After code is executed, press ENTER to return to vim
@@ -215,7 +214,12 @@ let g:vim_markdown_conceal_code_blocks = 0
 if has('unix') && executable('wl-paste')
     autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
     nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
+elseif has('unix') && executable('xclip')
+    " X11 clipboard handling
+    autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("xclip -selection clipboard", @")' | endif
+    nnoremap p :let @"=substitute(system("xclip -selection clipboard -o --no-newline"), '\n', '', 'g')<cr>p
 endif
+
 
 " Work this in one day for WSL detection
 " to use :w !clip.exe
