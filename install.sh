@@ -40,6 +40,7 @@ HYPRLAND_DESKTOP_PKGS=(
     "hyprland"
     "hyprlock"
     "hypridle"
+    "hyprpicker"
     "wl-clipboard"
     "waybar"
     "gnome-tweaks"
