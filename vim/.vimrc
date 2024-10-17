@@ -208,19 +208,28 @@ let g:vim_json_conceal=0
 let g:vim_markdown_conceal = 0
 let g:vim_markdown_conceal_code_blocks = 0
 
-" Use wl-copy for yank and paste
-" https://www.reddit.com/r/Fedora/comments/ax9p9t/comment/jbs8pom/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-" Making sure it only runs on Wayland
-if has('unix') && executable('wl-paste')
-    autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
-    nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
+function! IsWSL()
+  if has("unix")
+    let lines = readfile("/proc/version")
+    if lines[0] =~ "Microsoft"
+      return 1
+    endif
+  endif
+  return 0
+endfunction
+
+if IsWSL()
+  " WSL clipboard handling with clip.exe
+  autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("clip.exe", @")' | endif
+  nnoremap p :let @"=substitute(system("powershell.exe -Command Get-Clipboard"), '\n', '', 'g')<cr>p
+elseif has('unix') && executable('wl-paste')
+  " Wayland clipboard handling with wl-copy
+  autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("wl-copy", @")' | endif
+  nnoremap p :let @"=substitute(system("wl-paste --no-newline"), '<C-v><C-m>', '', 'g')<cr>p
 elseif has('unix') && executable('xclip')
     " X11 clipboard handling
-    autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("xclip -selection clipboard", @")' | endif
-    nnoremap p :let @"=substitute(system("xclip -selection clipboard -o --no-newline"), '\n', '', 'g')<cr>p
+    " Commented out because this hangs vim on WSL!
+    " autocmd TextYankPost * if (v:event.operator == 'y' || v:event.operator == 'd') | silent! execute 'call system("xclip -selection clipboard", @")' | endif
+    " nnoremap p :let @"=substitute(system("xclip -selection clipboard -o --no-newline"), '\n', '', 'g')<cr>p
 endif
 
-
-" Work this in one day for WSL detection
-" to use :w !clip.exe
-" https://stackoverflow.com/a/57020870/13095028
