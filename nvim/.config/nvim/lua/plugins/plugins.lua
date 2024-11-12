@@ -22,13 +22,14 @@ return {
       -- for language support
       -- @see https://biomejs.dev/internals/language-support/
       formatters_by_ft = {
-        ["javascript"] = { "biome" },
-        ["javascriptreact"] = { "biome" },
+        -- ["javascript"] = { "biome" },
+        -- ["javascriptreact"] = { "biome" },
         ["typescript"] = { "biome" },
-        ["typescriptreact"] = { "biome" },
+        -- ["typescriptreact"] = { "biome" },
         ["json"] = { "biome" },
         ["jsonc"] = { "biome" },
         ["markdown"] = {}, -- Empty table means no formatter!
+        ["svelte"] = { "svelte-language-server" },
         -- Biome don't support these yet! Using nvim native func
         -- ["css"] = { "biome" },
         -- ["scss"] = { "biome" },
