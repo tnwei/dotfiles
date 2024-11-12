@@ -7,6 +7,6 @@ if [[ $MONITOR_NAMES == *"$DEFAULT_MONITOR"* ]]; then
     hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
     notify-send "Laptop monitor disabled"
 else
-    hyprctl keyword monitor "$DEFAULT_MONITOR,preferred,0x0,1.2"
+    hyprctl keyword monitor "$DEFAULT_MONITOR,preferred,0x0,1"
     notify-send "Laptop monitor reactivated"
 fi
