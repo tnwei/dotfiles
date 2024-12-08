@@ -1,6 +1,9 @@
 # isort using ruff
 alias risort='ruff check --select I --fix'
 
+# show all envs in current dir
+alias showenv='find . -type f -name "*.env" -exec sh -c '"'"'echo "{}:"; cat "{}"'"'"' \;'
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
