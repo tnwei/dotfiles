@@ -1,6 +1,6 @@
 return {
   { "rebelot/kanagawa.nvim", lazy=true },
-  { "rose-pine/neovim", name = "rose-pine", lazy=true },
+  { "rose-pine/neovim", lazy=true },
   {
     "neanias/everforest-nvim",
     version = false,

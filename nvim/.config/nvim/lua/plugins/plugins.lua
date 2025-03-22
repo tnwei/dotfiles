@@ -82,6 +82,7 @@ return {
       },
     },
   },
+  {"folke/zen-mode.nvim"},
   {
     "linux-cultist/venv-selector.nvim",
     cmd = "VenvSelect",
