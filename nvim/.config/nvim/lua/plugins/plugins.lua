@@ -7,11 +7,11 @@ return {
     "williamboman/mason.nvim",
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
-        "pyright",
-        -- "black",
+        -- "pyright",
         "ruff",
         "ruff-lsp",
         "biome",
+        "svelte-language-server"
       })
     end,
   },
@@ -41,34 +41,43 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        pyright = {
-          -- this line if uncommented prevents pyright from being installed
-          -- mason = false,
-          autoImportCompletion = true,
-        },
-        ruff_lsp = {
-          enabled = lsp == "ruff_lsp",
-          keys = {
-            {
-              "<leader>co",
-              function()
-                vim.lsp.buf.code_action({
-                  apply = true,
-                  context = {
-                    only = { "source.organizeImports" },
-                    diagnostics = {},
-                  },
-                })
-              end,
-              desc = "Organize Imports",
-            },
-          },
-        },
-        biome = {},
-      },
-      setup = {
+    opts = function(_, opts)
+	  -- Fix inlay hints based on Neovim version
+      if vim.fn.has("nvim-0.10") == 1 then
+        -- Neovim 0.10+ uses the new inlay hints API
+        opts.inlay_hints = { enabled = false }
+      else
+        -- Neovim 0.9 and below needs the old way
+        opts.inlay_hints = false
+      end
+
+    opts.servers = vim.tbl_deep_extend("force", opts.server or {}, {
+		pyright = {
+		  -- this line if uncommented prevents pyright from being installed
+		  -- mason = false,
+		  autoImportCompletion = true,
+		},
+		ruff_lsp = {
+		  enabled = true,
+		  keys = {
+			{
+			  "<leader>co",
+			  function()
+				vim.lsp.buf.code_action({
+				  apply = true,
+				  context = {
+					only = { "source.organizeImports" },
+					diagnostics = {},
+				  },
+				})
+			  end,
+			  desc = "Organize Imports",
+			},
+		  },
+		},
+		biome = {},
+	})
+    opts.setup = vim.tbl_deep_extend("force", opts.setup or {}, {
         ruff_lsp = function()
           require("lazyvim.util").lsp.on_attach(function(client, _)
             if client.name == "ruff_lsp" then
@@ -79,8 +88,9 @@ return {
             end
           end)
         end,
-      },
-    },
+      })
+	return opts
+  end,
   },
   {"folke/zen-mode.nvim"},
   {
