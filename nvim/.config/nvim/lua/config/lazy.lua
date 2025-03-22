@@ -29,7 +29,6 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
   -- Reduce checker popup
   -- https://www.reddit.com/r/neovim/comments/13f03p7/comment/k4u2u4f/
   checker = { enabled = true, frequency = 86400, notify = false }, -- automatically check for plugin updates
