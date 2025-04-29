@@ -49,7 +49,6 @@ HYPRLAND_DESKTOP_PKGS=(
     "dunst"
     "grim"
     "slurp"
-    "wofi"
     "foot"
     "blueman"
     "chafa"
@@ -61,6 +60,7 @@ HYPRLAND_DESKTOP_PKGS=(
     "vlc"
     "pinta"
     "swappy"
+    "fuzzel"
 )
 
 PERSONAL_PC_PKGS=(
