@@ -29,6 +29,12 @@ Plug 'Yggdroot/indentLine'
 " Initialize plugin system
 call plug#end()
 
+" this should allow vim to auto-indent when I code in Python
+" https://stackoverflow.com/questions/45108986/introduce-tab-in-new-line-while-creating-a-block-for-python-files-in-vim
+filetype plugin indent on
+
+syntax on
+
 " Set termguicolors for serenade and everforest
 " With careful handling for tmux
 " Ref: https://stackoverflow.com/a/76362747/13095028
@@ -160,9 +166,6 @@ nnoremap <S-Tab> <<
 inoremap <S-Tab> <C-d>
 
 
-" this should allow vim to auto-indent when I code in Python
-" https://stackoverflow.com/questions/45108986/introduce-tab-in-new-line-while-creating-a-block-for-python-files-in-vim
-filetype plugin indent on
 
 " Show line numbers 
 set number
