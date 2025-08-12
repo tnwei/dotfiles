@@ -7,20 +7,19 @@ Type=Application
 Version=1.0
 
 # The name of the application
-Name=Suspend / Sleep
+Name=FoxDot
 
 # A comment which can/will be used as a tooltip
-Comment=Suspend / Sleep
+Comment=FoxDot live coding interpreter
 
 # The path to the folder in which the executable is run
-# Path=/home/tnwei/.local/scripts/
+Path=/home/tnwei/.local/scripts
 
 # The executable of the application, possibly with arguments.
-Exec=/home/tnwei/.local/power-hyprland.sh suspend
+Exec=foxdot.sh
 
 # Describes whether this application needs to be run in a terminal or not
-Terminal=false
+Terminal=True
 
-# The name of the icon that wlil be used to display this entry
-Icon=media-playback-pause
-
+# The name of the icon that will be used to display this entry
+Icon=media-playback-start

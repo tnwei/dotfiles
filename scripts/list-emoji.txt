@@ -1,4 +1,5 @@
 shrug,¯\_(ツ)_/¯
+sowwee,👉👈
 face with tears of joy,😂
 grinning face with smiling eyes,😄
 melting face,🫠
@@ -88,7 +89,7 @@ disappointed face ,😞
 downcast face with sweat ,😓
 weary face ,😩
 tired face ,😫
-face with steam from nose / huff,😤
+huff / face with steam from nose,😤
 pouting face ,😡
 angry face ,😠
 face with symbols on mouth ,🤬
@@ -142,7 +143,7 @@ raising hands ,🙌
 open hands ,👐
 palms up together ,🤲
 handshake ,🤝
-folded hands ,🙏
+folded hands thankful,🙏
 writing hand ,✍
 nail polish ,💅
 selfie ,🤳

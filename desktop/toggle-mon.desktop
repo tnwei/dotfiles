@@ -16,7 +16,7 @@ Comment=Toggle on/off laptop monitor
 Path=/home/tnwei/.local/scripts/
 
 # The executable of the application, possibly with arguments.
-Exec=toggle-monitor.sh
+Exec=/home/tnwei/.local/scripts/toggle-monitor.sh
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
