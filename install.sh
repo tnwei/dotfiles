@@ -27,7 +27,7 @@ CORE_PKGS=(
 )
 
 PIPX_PKGS=(
-    "black"
+    "ruff"
     "cookiecutter"
     "nbdime"
     "pre-commit"
