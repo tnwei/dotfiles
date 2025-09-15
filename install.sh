@@ -20,7 +20,6 @@ CORE_PKGS=(
     "ripgrep"
     "fzf"
     "make"
-    "pipx"
     "tmux"
     "vim"
     "stow"
