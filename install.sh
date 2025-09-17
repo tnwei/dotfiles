@@ -8,6 +8,7 @@ declare -A GH_TOOLS
 
 GH_TOOLS["uv"]="curl -LsSf https://astral.sh/uv/install.sh | sh"
 GH_TOOLS["zoxide"]="curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh"
+GH_TOOLS["pnpm"]="curl -fsSL https://get.pnpm.io/install.sh | sh -"
 
 
 CORE_PKGS=(
