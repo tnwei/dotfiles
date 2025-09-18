@@ -12,6 +12,7 @@ GH_TOOLS["pnpm"]="curl -fsSL https://get.pnpm.io/install.sh | sh -"
 
 
 CORE_PKGS=(
+    "golang"
     "gcc"
     "bat"
     "ranger"
