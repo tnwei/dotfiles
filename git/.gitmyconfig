@@ -6,7 +6,9 @@
 #     path = .gitmyconfig
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    update = !git checkout main && git fetch --all && git pull && git fetch -p
+    update = !git checkout main && git fetch --all --prune && git pull
+    # The following errors out, and also will error if there are no branches
+    # update = !git checkout main && git fetch --all --prune && git pull && git branch --merged | grep -v "\*" | grep -v "main" | xargs git branch -d
 [core]
     editor = vim
 [diff "jupyternotebook"]
