@@ -10,3 +10,8 @@ echo ""
 echo "Syncing ~/wallpapers ..."
 rclone sync remote:rclone-sync/wallpapers ~/wallpapers -L -P --interactive
 echo ""
+
+echo "Syncing ~/.fonts ..."
+rclone sync remote:rclone-sync/.fonts ~/.fonts -L -P --interactive
+echo ""
+
