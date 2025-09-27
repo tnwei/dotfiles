@@ -10,7 +10,7 @@ GH_TOOLS["uv"]="curl -LsSf https://astral.sh/uv/install.sh | sh"
 GH_TOOLS["zoxide"]="curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh"
 GH_TOOLS["pnpm"]="curl -fsSL https://get.pnpm.io/install.sh | sh -"
 GH_TOOLS["vim-plug"]="curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-
+GH_TOOLS["rclone"]="sudo -v ; curl https://rclone.org/install.sh | sudo bash"
 
 CORE_PKGS=(
     "golang"
