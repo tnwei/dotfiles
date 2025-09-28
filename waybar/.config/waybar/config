@@ -8,8 +8,12 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces", 
+        "niri/workspaces"
     ],
-    "modules-center": ["hyprland/window"],
+    "modules-center": [
+        "hyprland/window",
+        "niri/window"
+    ],
     "modules-right": [
         "idle_inhibitor",
         // Do I really need CPU? I got thermals
@@ -49,6 +53,26 @@
             /* "default": "" */
         }
     },
+
+    "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            // Named workspaces
+            // (you need to configure them in niri)
+            "browser": "",
+            "discord": "",
+            "chat": "<b></b>",
+
+            // Icons by state
+            "active": "",
+            "default": ""
+        }
+    },
+
+    "niri/window": {
+        "format": "{}"
+    },
+
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
