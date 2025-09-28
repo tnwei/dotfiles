@@ -39,11 +39,11 @@ PIPX_PKGS=(
 )
 
 HYPRLAND_DESKTOP_PKGS=(
+    # sudo dnf copr enable solopasha/hyprland
     "hyprland"
-    # Not available anymore in Fedora 42?
-    # "hyprlock"
-    # "hypridle"
-    # "hyprpicker"
+    "hyprlock"
+    "hypridle"
+    "hyprpicker"
     "wl-clipboard"
     "waybar"
     "gnome-tweaks"
