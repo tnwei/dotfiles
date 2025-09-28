@@ -207,3 +207,39 @@ while true; do
         echo "Invalid input, y/n only"
     fi
 done
+
+# Setup bash configuration
+echo -e "Setting up bash configuration (.common_bashrc and .bash_aliases)...\n"
+
+while true; do
+    read -p "Would you like to add .common_bashrc and .bash_aliases to ~/.bashrc? (y/n) " SETUP_BASH
+
+    if [[ $SETUP_BASH == "y" ]]; then
+        # Backup existing .bashrc if it exists
+        if [ -f ~/.bashrc ]; then
+            cp ~/.bashrc ~/.bashrc.backup
+            echo "Backed up existing ~/.bashrc to ~/.bashrc.backup"
+        fi
+
+        # Add sourcing commands to ~/.bashrc
+        echo "" >> ~/.bashrc
+        echo "# Added by dotfiles install script" >> ~/.bashrc
+        echo "if [ -f ~/.common_bashrc ]; then" >> ~/.bashrc
+        echo "    . ~/.common_bashrc" >> ~/.bashrc
+        echo "fi" >> ~/.bashrc
+        echo "" >> ~/.bashrc
+        echo "if [ -f ~/.bash_aliases ]; then" >> ~/.bashrc
+        echo "    . ~/.bash_aliases" >> ~/.bashrc
+        echo "fi" >> ~/.bashrc
+
+        echo "Added .common_bashrc and .bash_aliases sourcing to ~/.bashrc"
+        echo "Run 'source ~/.bashrc' to reload your bash configuration"
+        echo ""
+        break
+    elif [[ $SETUP_BASH == "n" ]]; then
+        echo ""
+        break
+    else
+        echo "Invalid input, y/n only"
+    fi
+done
