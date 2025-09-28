@@ -243,3 +243,38 @@ while true; do
         echo "Invalid input, y/n only"
     fi
 done
+
+# Setup git configuration
+echo -e "Setting up git configuration (.gitmyconfig)...\n"
+
+while true; do
+    read -p "Would you like to add .gitmyconfig include to ~/.gitconfig? (y/n) " SETUP_GIT
+
+    if [[ $SETUP_GIT == "y" ]]; then
+        # Check if ~/.gitconfig already includes .gitmyconfig
+        if [ -f ~/.gitconfig ] && grep -q "path.*gitmyconfig" ~/.gitconfig; then
+            echo "~/.gitconfig already includes .gitmyconfig"
+        else
+            # Backup existing .gitconfig if it exists
+            if [ -f ~/.gitconfig ]; then
+                cp ~/.gitconfig ~/.gitconfig.backup
+                echo "Backed up existing ~/.gitconfig to ~/.gitconfig.backup"
+            fi
+
+            # Add include section to ~/.gitconfig
+            echo "" >> ~/.gitconfig
+            echo "# Added by dotfiles install script" >> ~/.gitconfig
+            echo "[include]" >> ~/.gitconfig
+            echo "    path = ~/.gitmyconfig" >> ~/.gitconfig
+
+            echo "Added .gitmyconfig include to ~/.gitconfig"
+        fi
+        echo ""
+        break
+    elif [[ $SETUP_GIT == "n" ]]; then
+        echo ""
+        break
+    else
+        echo "Invalid input, y/n only"
+    fi
+done
