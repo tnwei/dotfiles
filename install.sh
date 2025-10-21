@@ -27,6 +27,7 @@ CORE_PKGS=(
     "stow"
     "neovim"
     "rclone"
+    "lmsensors"
 )
 
 PIPX_PKGS=(
@@ -46,6 +47,8 @@ HYPRLAND_DESKTOP_PKGS=(
     "hyprpicker"
     "wl-clipboard"
     "waybar"
+    "network-manager-applet"
+    "NetworkManager-tui"
     "gnome-tweaks"
     "swaybg"
     # https://discussion.fedoraproject.org/t/polkit-agent-in-hyprland-fedora-41/136857
@@ -56,6 +59,8 @@ HYPRLAND_DESKTOP_PKGS=(
     "slurp"
     "foot"
     "blueman"
+    "chromium"
+    "firefox"
     "chafa"
     "acpi"
     "pavucontrol"
