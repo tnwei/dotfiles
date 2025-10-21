@@ -9,6 +9,8 @@
     update = !git checkout main && git fetch --all --prune && git pull
     # The following errors out, and also will error if there are no branches
     # update = !git checkout main && git fetch --all --prune && git pull && git branch --merged | grep -v "\*" | grep -v "main" | xargs git branch -d
+    dmb = !git branch --merged main | grep -v "\\*" | grep -v "main" | xargs git branch -d
+
 [core]
     editor = vim
 [diff "jupyternotebook"]
