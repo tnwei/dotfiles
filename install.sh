@@ -25,6 +25,7 @@ CORE_PKGS=(
     "tmux"
     "vim"
     "stow"
+    "tig"
     "neovim"
     "rclone"
     "lmsensors"
