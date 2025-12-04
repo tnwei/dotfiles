@@ -79,7 +79,7 @@ return {
       })
       opts.setup = vim.tbl_deep_extend("force", opts.setup or {}, {
         ruff_lsp = function()
-          require("lazyvim.util").lsp.on_attach(function(client, _)
+          require("snacks.util.lsp").on(function(_, client)
             if client.name == "ruff_lsp" then
               -- Disable hover in favor of Pyright
               -- Edit: remove Pyright
