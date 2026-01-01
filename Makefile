@@ -27,6 +27,7 @@ stow:
 	stow --target=${HOME} starship/
 	stow --target=${HOME} zellij/
 	stow --target=${HOME} niri/
+	stow --target=${HOME} pistol/
 
 unstow:
 	stow --delete --target=${HOME} bash/
@@ -53,3 +54,4 @@ unstow:
 	stow --delete --target=${HOME} starship/
 	stow --delete --target=${HOME} zellij/
 	stow --delete --target=${HOME} niri/
+	stow --delete --target=${HOME} pistol/
