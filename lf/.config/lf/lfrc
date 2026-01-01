@@ -39,10 +39,13 @@ set sixel true
 # Installed stpv, following are integration instructions
 # https://github.com/gokcehan/lf/wiki/Previews#with-stpv-and-ctpv
 # Note: custom filetype previews in ~/.config/stpv/config.sh
-set previewer stpv
-set cleaner stpvimgclr
-&stpvimg --listen $id
-cmd on-quit $stpvimg --end $id
+# set previewer stpv
+# set cleaner stpvimgclr
+# &stpvimg --listen $id
+# cmd on-quit $stpvimg --end $id
+
+set previewer pistol
+
 
 # leave some space at the top and the bottom of the screen
 set scrolloff 10
@@ -139,3 +142,4 @@ cmd zip ${{
     zip -r $1.zip $1
     rm -rf $1
 }}
+
