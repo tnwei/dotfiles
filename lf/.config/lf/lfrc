@@ -69,9 +69,14 @@ map X !$f
 map o &mimeopen $f
 map O $mimeopen --ask $f
 
-# Use ranger's rifle for opening files
-# Until I understand more how to config this
-cmd open $set -f; rifle -p 0 "$fx"
+# Open images in-terminal with sixel, press Enter to go back
+# Everything else uses rifle
+cmd open ${{
+    case $(file -Lb --mime-type "$f") in
+        image/*) chafa -f sixels "$f"; printf '\nPress Enter to continue'; read _ ;;
+        *) rifle -p 0 "$f" ;;
+    esac
+}}
 
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
