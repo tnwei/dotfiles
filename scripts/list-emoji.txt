@@ -1,6 +1,8 @@
 shrug,¯\_(ツ)_/¯
+huff / face with steam from nose,😤
 sowwee,👉👈
 face with tears of joy,😂
+peek / face with peeking eye,🫣
 grinning face with smiling eyes,😄
 melting face,🫠
 grinning face with sweat,😅
@@ -81,7 +83,7 @@ fearful face ,😨
 anxious face with sweat ,😰
 sad but relieved face ,😥
 crying face ,😢
-loudly crying face ,😭
+sob / loudly crying face ,😭
 face screaming in fear ,😱
 confounded face ,😖
 persevering face ,😣
@@ -89,8 +91,7 @@ disappointed face ,😞
 downcast face with sweat ,😓
 weary face ,😩
 tired face ,😫
-huff / face with steam from nose,😤
-pouting face ,😡
+very angry face ,😡
 angry face ,😠
 face with symbols on mouth ,🤬
 smiling face with horns ,😈
@@ -143,7 +144,7 @@ raising hands ,🙌
 open hands ,👐
 palms up together ,🤲
 handshake ,🤝
-folded hands thankful,🙏
+pray,folded hands thankful,🙏
 writing hand ,✍
 nail polish ,💅
 selfie ,🤳
@@ -500,7 +501,7 @@ cherry blossom ,🌸
 white flower ,💮
 rosette ,🏵
 rose ,🌹
-wilted flower ,🥀
+layu,wilted flower ,🥀
 hibiscus ,🌺
 sunflower ,🌻
 blossom ,🌼
