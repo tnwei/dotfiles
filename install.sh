@@ -41,8 +41,9 @@ PIPX_PKGS=(
 )
 
 HYPRLAND_DESKTOP_PKGS=(
-    # sudo dnf copr enable solopasha/hyprland
+    # sudo dnf copr enable lionheartp/Hyprland
     "hyprland"
+    # Might need to dnf install the remaining hyprland packages manually
     "hyprlock"
     "hypridle"
     "hyprpicker"
