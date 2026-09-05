@@ -94,14 +94,14 @@ autocmd BufRead,BufNewFile,BufEnter *.md,*.markdown call MathAndLiquid()
 
 " Limelight shadow color config required if color scheme unsupported
 " :help cterm-colors
-let g:limelight_conceal_ctermfg = 'darkgray'
+let g:limelight_conceal_ctermfg = 'Gray'
 " I'd rather keep all cterms
 " let g:limelight_conceal_guifg = '#5A6374'
 
 " This doesn't work if unsupported color scheme
 " let g:limelight_default_coefficient = 0.9
 
-let g:limelight_paragraph_span = 1
+let g:limelight_paragraph_span = 0
 
 " Goyo config
 " Quit on :q
@@ -236,3 +236,6 @@ elseif has('unix') && executable('xclip')
     " nnoremap p :let @"=substitute(system("xclip -selection clipboard -o --no-newline"), '\n', '', 'g')<cr>p
 endif
 
+" Reduce formatting on large yaml files, freezes up w/o this when using yaml
+" to store long text
+autocmd FileType yaml setlocal synmaxcol=200
