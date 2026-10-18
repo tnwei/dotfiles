@@ -1,4 +1,7 @@
-# /bin/bash
+#!/usr/bin/env bash
+
+# Note: setting the shebang above properly allows fuzzel
+# to call it successfully from a .desktop entry!
 
 if command -v swaybg >/dev/null 2>&1; then
     # Kill existing swaybg
