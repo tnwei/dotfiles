@@ -27,9 +27,9 @@ alias todo="grep TODO -nRI --exclude=*.csv --exclude=**/node_modules/* *"
 # Quick and dirty conversion of markdown to PDF using LaTeX
 # Requires pandoc!
 # Example: md2pdf file.md file.pdf
-# md2pdf () {
-#     pandoc -V geometry:margin=1in -f markdown+hard_line_breaks -o $2 $1
-# }
+md2pdf () {
+    pandoc -V geometry:margin=1in -o $2 $1
+}
 
 # Similar but pipes straight to zathura
 # md2zathura(){
