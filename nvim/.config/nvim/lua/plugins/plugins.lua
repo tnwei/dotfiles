@@ -1,8 +1,16 @@
 return {
-  -- Is this how to use mason.nvim?
+  -- This is for reading mdx files
+  -- No need to enable mdx in nvim-treesitter, this plugin hooks into it and configures itself!
+  {
+    "davidmh/mdx.nvim",
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    config = function()
+    end
+  },
   {
     "sindrets/diffview.nvim",
   },
+  -- Is this how to use mason.nvim?
   {
     "mason-org/mason.nvim",
     opts = function(_, opts)
@@ -112,4 +120,14 @@ return {
     end,
     keys = { { "<leader>cv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv" } },
   },
+  {
+    "nvim-lualine/lualine.nvim",
+    opts = function(_, opts)
+      -- Disables the chevrons in the statusbar, making it look less like powerline
+      opts.options.component_separators = { left = "", right = "" }
+      opts.options.section_separators = { left = "", right = "" }
+      -- Disable the use of rich icons, prefer clear ASCII
+      opts.options.icons_enabled = false
+    end,
+  }
 }
