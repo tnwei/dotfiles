@@ -38,6 +38,7 @@ PIPX_PKGS=(
     "pre-commit"
     "dtrx"
     "git+https://github.com/tnwei/nbread"
+    "keymap-drawer"
 )
 
 HYPRLAND_DESKTOP_PKGS=(
