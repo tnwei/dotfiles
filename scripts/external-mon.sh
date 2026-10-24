@@ -18,12 +18,12 @@ DEFAULT_MONITOR="eDP-1"
 case $NUM_MONITORS in
     0)
         # I don't think this is triggering ever
-        hyprctl keyword monitor "$DEFAULT_MONITOR,preferred,0x0,1.15"
+        hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = false, mode = \"preferred\", position = \"0x0\", scale = 1.15 })"
         notify-send "Laptop monitor reactivated"
         ;;
     1)
         if [[ $MONITOR_NAMES == *"Headless"* ]]; then
-            hyprctl keyword monitor "$DEFAULT_MONITOR,preferred,0x0,1.15"
+            hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = false, mode = \"preferred\", position = \"0x0\", scale = 1.15 })"
             notify-send "Laptop monitor reactivated"
         fi
         ;;
@@ -31,15 +31,15 @@ case $NUM_MONITORS in
         case $MONITOR_NAMES in 
             # Turn off laptop screen if connected to work monitor
             *"P2419H"*)
-                hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
+                hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = true })"
                 notify-send "Dell work monitor detected"
                 ;;
             *"E24 G5"*)
-                hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
+                hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = true })"
                 notify-send "HP work monitor detected"
                 ;;
             *"KG241Q P"*)
-                hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
+                hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = true })"
                 notify-send "Home monitor detected"
                 ;;
         esac

@@ -1,12 +1,11 @@
 #!/bin/bash
-HYPRCTL_MONITORS=$(hyprctl monitors -j)
-MONITOR_NAMES=$(jq -r " .[] | .description, .name" <<< $HYPRCTL_MONITORS)
+HYPRCTL_MONITORS=$(hyprctl monitors -j) || exit 1
 DEFAULT_MONITOR="eDP-1"
 
-if [[ $MONITOR_NAMES == *"$DEFAULT_MONITOR"* ]]; then
-    hyprctl keyword monitor "$DEFAULT_MONITOR,disable"
+if jq -e --arg name "$DEFAULT_MONITOR" 'any(.[]; .name == $name)' <<< "$HYPRCTL_MONITORS" >/dev/null; then
+    hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = true })"
     notify-send "Laptop monitor disabled"
 else
-    hyprctl keyword monitor "$DEFAULT_MONITOR,preferred,0x0,1"
+    hyprctl eval "hl.monitor({ output = \"$DEFAULT_MONITOR\", disabled = false, mode = \"preferred\", position = \"0x0\", scale = 1 })"
     notify-send "Laptop monitor reactivated"
 fi
