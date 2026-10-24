@@ -7,11 +7,11 @@
 -- name,resolution,position,scale
 -- Define the laptop screen itself to have 1.15
 -- And fix the location to be origin
-local defaultMonitor = eDP-1
-hl.monitor({output = defaultMonitor, mode = "preferred", postion = "0x0", scale = 1})
+local defaultMonitor = "eDP-1"
+hl.monitor({ output = defaultMonitor, mode = "preferred", position = "0x0", scale = 1 })
 
 -- New line just for home monitor to lock resolution
-hl.monitor({output = "HDMI-A-1", mode="2560x1440@60", position="auto", scale=1})
+hl.monitor({ output = "HDMI-A-1", mode = "2560x1440@60", position = "auto", scale = 1 })
 -- hl.monitor({output = "DP-3", mode="1920x1080@60", position = "auto",scale = 1})
 
 -- this allows all monitors to queue up towards the right
@@ -56,80 +56,80 @@ hl.monitor({output = "HDMI-A-1", mode="2560x1440@60", position="auto", scale=1})
 -- This following cmd used to be hyprctl dispatch dpms off
 -- Wiki at warns against it due to potentially causing undefined behaviour?
 hl.bind("switch:off:Lid Switch", function()
-  hl.timer(function()
-    hl.dispatch(hl.dsp.dpms({ action = "disable" }))
-  end, {timeout = 500, type = "oneshot"})
+	hl.timer(function()
+		hl.dispatch(hl.dsp.dpms({ action = "disable" }))
+	end, { timeout = 500, type = "oneshot" })
 end)
 
 hl.bind("switch:on:Lid Switch", function()
-  hl.timer(function()
-    hl.dispatch(hl.dsp.dpms({ action = "enable" }))
-  end, {timeout = 500, type = "oneshot"})
-  -- locked = true is to allow this bind to work when in locked state
-end, {locked = true})
+	hl.timer(function()
+		hl.dispatch(hl.dsp.dpms({ action = "enable" }))
+	end, { timeout = 500, type = "oneshot" })
+	-- locked = true is to allow this bind to work when in locked state
+end, { locked = true })
 
 -- Init services upon startup
-hl.on("hyprland.start", function ()
-  -- Note: exec_cmd doesnt need "&"! Is implied
+hl.on("hyprland.start", function()
+	-- Note: exec_cmd doesnt need "&"! Is implied
 
-  -- Polkit
-  hl.exec_cmd("/usr/libexec/polkit-gnome-authentication-agent-1")
-  -- Bluetooth
-  -- blueman recommended in https://www.reddit.com/r/hyprland/comments/165hhd9/
-  hl.exec_cmd("blueman-applet")
-  hl.exec_cmd("waybar")
+	-- Polkit
+	hl.exec_cmd("/usr/libexec/polkit-gnome-authentication-agent-1")
+	-- Bluetooth
+	-- blueman recommended in https://www.reddit.com/r/hyprland/comments/165hhd9/
+	hl.exec_cmd("blueman-applet")
+	hl.exec_cmd("waybar")
 
-  -- Screen idle lock
-  -- For settings, see hypridle.conf
-  hl.exec_cmd("hypridle")
+	-- Screen idle lock
+	-- For settings, see hypridle.conf
+	hl.exec_cmd("hypridle")
 
-  -- Network Manager applet for wifi
-  hl.exec_cmd("nm-applet")
+	-- Network Manager applet for wifi
+	hl.exec_cmd("nm-applet")
 
-  -- Pick a wallpaper
-  -- Search for files, shuffles them and select one, pipe into swaybg
-  -- exec-once = swaybg -i $(find ~/wallpapers/. -type f | shuf -n1)
-  hl.exec_cmd("~/.local/scripts/change-wallpaper.sh")
+	-- Pick a wallpaper
+	-- Search for files, shuffles them and select one, pipe into swaybg
+	-- exec-once = swaybg -i $(find ~/wallpapers/. -type f | shuf -n1)
+	hl.exec_cmd("~/.local/scripts/change-wallpaper.sh")
 end)
-
 
 hl.env("XCURSOR_SIZE", "24")
 
 -- Keyboard layouts
 hl.config({
-  input = {
-    kb_layout = "us",
-    kb_variant = "",
-    kb_model = "",
-    kb_options = "",
-    kb_rules = "",
+	input = {
+		kb_layout = "us",
+		kb_variant = "",
+		kb_model = "",
+		kb_options = "",
+		kb_rules = "",
 
-    -- Should window focus follow mouse
-    follow_mouse = 1,
+		-- Should window focus follow mouse
+		follow_mouse = 1,
 
-    -- I assume sensitivity here is mouse sensitivity?
-    -- -1.0 - 1.0, 0 means no modification
-    sensitivity = 0.5,
+		-- I assume sensitivity here is mouse sensitivity?
+		-- -1.0 - 1.0, 0 means no modification
+		sensitivity = 0.5,
 
-    touchpad = {
-      -- natural means the scroll direction is like pushing paper
-      -- push paper up to scroll down
-      -- traditionally scrolling direction follows the scrollbar, which is opposite
-      -- makes sense for touchpad but not for mouse scrollwheel I think
-      natural_scroll = true,
-      scroll_factor = 1.5
-    },
+		touchpad = {
+			-- natural means the scroll direction is like pushing paper
+			-- push paper up to scroll down
+			-- traditionally scrolling direction follows the scrollbar, which is opposite
+			-- makes sense for touchpad but not for mouse scrollwheel I think
+			natural_scroll = true,
+			scroll_factor = 1.5,
+		},
 
-    accel_profile = "flat"
-}
+		accel_profile = "flat",
+	},
+})
 
 -- Gestures
 -- Change in hyprland 0.51
 hl.gesture({
-  fingers = 3,
-  direction = "horizontal", 
-  action = "workspace"
-}) 
+	fingers = 3,
+	direction = "horizontal",
+	action = "workspace",
+})
 
 -- https://wiki.hypr.land/configuring/core/binds/keyboard-layouts/
 -- Adding another language keyboard: https://www.reddit.com/r/hyprland/comments/176algg/comment/k4lf7mt/
@@ -137,96 +137,96 @@ hl.gesture({
 
 -- Look and feel
 hl.config({
-  general= {
-      gaps_in = 5,
-      gaps_out = 15,
-      border_size = 2,
-      col = {
-        active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)", angle = 45},
-        inactive_border = "rgba(595959aa)"
-      },
+	general = {
+		gaps_in = 5,
+		gaps_out = 15,
+		border_size = 2,
+		col = {
+			active_border = { colors = { "rgba(33ccffee)", "rgba(00ff99ee)", angle = 45 } },
+			inactive_border = "rgba(595959aa)",
+		},
 
-      layout = "dwindle",
+		layout = "dwindle",
 
-      -- if this is true, resize does not need holding down mod key
-      resize_on_border = false,
+		-- if this is true, resize does not need holding down mod key
+		resize_on_border = false,
 
-      -- Please see https://wiki.hyprland.org/Configuring/Tearing/ before you turn this on
-      allow_tearing = false
-  },
+		-- Please see https://wiki.hyprland.org/Configuring/Tearing/ before you turn this on
+		allow_tearing = false,
+	},
 
-  decoration = {
-    rounding = 10,
-    blur = {
-        enabled = true,
-        size = 3,
-        passes = 1
-    },
-    shadow {
-        enabled = true,
-        range = 4,
-        render_power = 3,
-        color = "rgba(1a1a1aee)"
-    }
-  },
+	decoration = {
+		rounding = 10,
+		blur = {
+			enabled = true,
+			size = 3,
+			passes = 1,
+		},
+		shadow = {
+			enabled = true,
+			range = 4,
+			render_power = 3,
+			color = "rgba(1a1a1aee)",
+		},
+	},
 
-  animations  = {
-    enabled = true,
-
-  },
+	animations = {
+		enabled = true,
+	},
+})
 
 -- Animations
 -- Defined this Bezier curve for window movements
 -- Apple-style spring curves are defined now! Take a look in the future 👀
-hl.curve("myBezier", { type = "bezier", points = {{0.05, 0.9}, {0.1, 1.05}} })
-hl.animation({ leaf = "windows", enabled = true, speed = 7, bezier = "myBezier"})
-hl.animation({ leaf = "windowsOut", enabled = true, speed = 7, curve = "default", astyle = "popin 80%"})
-hl.animation({ leaf = "border", enabled = true, speed = 10, curve = "default"})
-hl.animation({ leaf = "borderangle", enabled = true, speed = 8, curve = "default"})
-hl.animation({ leaf = "fade", enabled = true, speed = 7, curve = "default"})
-hl.animation({ leaf = "workspaces", enabled = true, speed = 3, curve = "default"})
+hl.curve("fastBezier", { type = "bezier", points = { { 0.05, 0.9 }, { 0.1, 1.05 } } })
+hl.animation({ leaf = "windows", enabled = true, speed = 7, bezier = "fastBezier" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 7, bezier = "default", astyle = "popin 80%" })
+hl.animation({ leaf = "border", enabled = true, speed = 10, bezier = "default" })
+hl.animation({ leaf = "borderangle", enabled = true, speed = 8, bezier = "default" })
+hl.animation({ leaf = "fade", enabled = true, speed = 7, bezier = "default" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 3, bezier = "default" })
 
 -- The following slides in the special workspace
 -- superfast and also along the vert axis!
-hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 1, curve = "default", style = "slidevert"})
+hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 1, bezier = "default", style = "slidevert" })
 
 -- Dwindle layout
 hl.config({
-  dwindle = {
-    -- See https://wiki.hyprland.org/Configuring/Dwindle-Layout/ for more
-    -- you probably want this
-    preserve_split = true,
-    -- 1.618 / (1.618 + 1) * 2 coz this is from 0.1 to 1.9 so Im guessing x2?
-    default_split_ratio = 1.236
-  }
+	dwindle = {
+		-- See https://wiki.hyprland.org/Configuring/Dwindle-Layout/ for more
+		-- you probably want this
+		preserve_split = true,
+		-- 1.618 / (1.618 + 1) * 2 coz this is from 0.1 to 1.9 so Im guessing x2?
+		default_split_ratio = 1.236,
+	},
 })
 
 -- Master layout
 hl.config({
-  master = {
-    new_status = master
-  }
+	master = {
+		new_status = master,
+	},
 })
 
 -- Misc config
 hl.config({
-  misc = {
-      -- Set to 0 to disable the anime mascot wallpapers
-      force_default_wallpaper = 0 
-  }
+	misc = {
+		-- Set to 0 to disable the anime mascot wallpapers
+		force_default_wallpaper = 0,
+	},
 })
 
 -- Keybinds
-local mainMod = "SUPER";
-local terminal = "foot";
-local fileManager = "dolphin";
+local mainMod = "SUPER"
+local terminal = "foot"
+local fileManager = "dolphin"
 
-hl.bind(mainMod  .. " + RETURN", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
-  
+
 hl.bind(mainMod .. " + M", hl.dsp.exit())
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
-hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle"}))
+hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 
 -- Bindings for the app launcher
 -- fuzzel can't launch scripts?
@@ -268,15 +268,15 @@ hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("$HOME/.local/scripts/emoji.sh")
 -- No mod! Just press printscreen
 -- Add Super key to pipe to swappy instead
 
-hl.bind("Print", hl.dsp.exec_cmd("grim -g \"$(slurp -d)\" - | swappy -f -"))
+hl.bind("Print", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | swappy -f -'))
 
 -- Mod key with printscreen to take the whole frame
-hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd('grim - | swappy -f -'))
+hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("grim - | swappy -f -"))
 
 -- Win + Shift + O to OCR into clipboard from screenshot!
 hl.bind(mainMod .. " + SHIFT + O", hl.dsp.exec_cmd("$HOME/.local/scripts/ocr-screenshot.sh"))
 
-hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({action = "toggle"}))
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 
 -- Color picker
 hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("$HOME/.local/scripts/color-picker-with-notify.sh"))
@@ -317,7 +317,6 @@ hl.bind(mainMod .. " + SHIFT + 8", hl.dsp.window.move({ workspace = 8, follow = 
 hl.bind(mainMod .. " + SHIFT + 9", hl.dsp.window.move({ workspace = 9, follow = false }))
 hl.bind(mainMod .. " + SHIFT + 0", hl.dsp.window.move({ workspace = 10, follow = false }))
 
-
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic", follow = false }))
@@ -345,5 +344,11 @@ hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1.5 @DEFAUL
 hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"))
 
 -- Screen brightness
-hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl s +5% && notify-send \"Brightnesss $(brightnessctl g -P)%\" -i weather-clear -t 300"))
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl s 5%- && notify-send \"Brightness $(brightnessctl g -P)%\" -i weather-clear -t 300"))
+hl.bind(
+	"XF86MonBrightnessUp",
+	hl.dsp.exec_cmd('brightnessctl s +5% && notify-send "Brightnesss $(brightnessctl g -P)%" -i weather-clear -t 300')
+)
+hl.bind(
+	"XF86MonBrightnessDown",
+	hl.dsp.exec_cmd('brightnessctl s 5%- && notify-send "Brightness $(brightnessctl g -P)%" -i weather-clear -t 300')
+)
