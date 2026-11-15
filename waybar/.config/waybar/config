@@ -1,13 +1,15 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    // "height": 30, // Waybar height (to be removed for auto height)
+    "height": 30, // Fixed height keeps the reserved screen area stable
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces", 
+        "custom/ws1", "custom/ws2", "custom/ws3", "custom/ws4", "custom/ws5",
+        "custom/ws6", "custom/ws7", "custom/ws8", "custom/ws9", "custom/ws10",
+        "custom/wsmagic",
         "niri/workspaces"
     ],
     "modules-center": [
@@ -35,24 +37,158 @@
 
     // Modules configuration
     // For icons, goto the Font Awesome website and copy the glyphs!
-    "hyprland/workspaces": {
-        "sort-by": "number",
-        "show-special": true,
-        // all-outputs false means each monitor only shows
-        // the workspace that they have
-        "all-outputs": false,
-        "format": "{name}",
-        "format-icons": {
-            /* "1": "", */
-            /* "2": "", */
-            /* "3": "", */
-            /* "4": "", */
-            /* "5": "", */
-            "urgent": "",
-            "focused": "",
-            /* "default": "" */
-        }
+    // Fixed order, with live state from Hyprland. The ext/workspaces module
+    // cannot keep numeric sorting when a named special workspace is included.
+    "custom/ws1": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 1 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>1</b> </span>\" else \"1\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 1 })\""
     },
+    "custom/ws2": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 2 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>2</b> </span>\" else \"2\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 2 })\""
+    },
+    "custom/ws3": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 3 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>3</b> </span>\" else \"3\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 3 })\""
+    },
+    "custom/ws4": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 4 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>4</b> </span>\" else \"4\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 4 })\""
+    },
+    "custom/ws5": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 5 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>5</b> </span>\" else \"5\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 5 })\""
+    },
+    "custom/ws6": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 6 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>6</b> </span>\" else \"6\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 6 })\""
+    },
+    "custom/ws7": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 7 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>7</b> </span>\" else \"7\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 7 })\""
+    },
+    "custom/ws8": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 8 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>8</b> </span>\" else \"8\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 8 })\""
+    },
+    "custom/ws9": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 9 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>9</b> </span>\" else \"9\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 9 })\""
+    },
+    "custom/ws10": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson id 10 --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and .id==$id) then {text:(if ($m.activeWorkspace.id|tostring)==($id|tostring) then \"<span background=\\\"#26A65B\\\"> <b>10</b> </span>\" else \"10\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = 10 })\""
+    },
+    "custom/wsmagic": {
+        "exec": "hyprctl -j monitors | jq -c --arg n \"$WAYBAR_OUTPUT_NAME\" --argjson ws \"$(hyprctl -j workspaces)\" '.[] | select(.name==$n) as $m | if any($ws[]; .monitor==$n and (.name==\"special:magic\" or .name==\"magic\")) then {text:(if ($m.specialWorkspace.name==\"special:magic\" or $m.specialWorkspace.name==\"magic\") then \"<span background=\\\"#26A65B\\\"> <b>magic</b> </span>\" else \"magic\" end)} else {text:\"\"} end' 2>/dev/null || echo '{\"text\":\"\"}'",
+        "interval": 2,
+        "return-type": "json",
+        "format": "{text}",
+        "escape": false,
+        "min-length": 3,
+        "align": 0.5,
+        "hide-empty-text": true,
+        "on-click": "hyprctl dispatch \"hl.dsp.workspace.toggle_special('magic')\""
+    },
+
+    // Retained for reference. Waybar 0.15.0 uses a legacy Hyprland dispatch
+    // protocol here and cannot order numbered and named special workspaces together.
+    // "hyprland/workspaces": {
+    //     "sort-by": "number",
+    //     "show-special": true,
+    //     "all-outputs": false,
+    //     "format": "{name}",
+    //     "on-click": "hyprctl dispatch \"hl.dsp.focus({ workspace = {name} })\" ",
+    //     "format-icons": {
+    //         /* "1": "", */
+    //         /* "2": "", */
+    //         /* "3": "", */
+    //         /* "4": "", */
+    //         /* "5": "", */
+    //         "urgent": "",
+    //         "focused": "",
+    //         /* "default": "" */
+    //     }
+    // },
+
+    // Replaced by the ordered custom buttons above.
+    // "ext/workspaces": {
+    //     "sort-by-id": true,
+    //     "all-outputs": false,
+    //     "format": "{name}",
+    //     "on-click": "activate",
+    //     "ignore-hidden": false
+    // },
 
     "niri/workspaces": {
         "format": "{icon}",
