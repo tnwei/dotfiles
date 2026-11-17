@@ -264,7 +264,7 @@ hl.bind(mainMod .. " + U", hl.dsp.exec_cmd("wlogout"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 
 -- Run toggle screen script
-hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("$HOME/.local/scripts/toggle-monitor.sh"))
+-- hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("$HOME/.local/scripts/toggle-monitor.sh"))
 
 -- Win + . -> emoji selector
 hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("$HOME/.local/scripts/emoji.sh"))
@@ -379,3 +379,5 @@ hl.bind(
 	"XF86MonBrightnessDown",
 	hl.dsp.exec_cmd('brightnessctl s 5%- && notify-send "Brightness $(brightnessctl g -P)%" -i weather-clear -t 300')
 )
+
+require("display-switcher")
