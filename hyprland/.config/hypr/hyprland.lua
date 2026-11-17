@@ -79,6 +79,10 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("blueman-applet")
 	hl.exec_cmd("waybar")
 
+    -- Sets up flameshot in the waybar!
+    hl.exec_cmd("flameshot")
+
+
 	-- Screen idle lock
 	-- For settings, see hypridle.conf
 	hl.exec_cmd("hypridle")
@@ -268,11 +272,33 @@ hl.bind(mainMod .. " + period", hl.dsp.exec_cmd("$HOME/.local/scripts/emoji.sh")
 -- printscreen from from https://wiki.hyprland.org/FAQ/#how-do-i-screenshot
 -- No mod! Just press printscreen
 -- Add Super key to pipe to swappy instead
+-- hl.bind("Print", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | swappy -f -'))
 
-hl.bind("Print", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | swappy -f -'))
+-- ref: https://github.com/flameshot-org/flameshot/blob/master/docs/UsageHyprlandSwayWlroots.md
+hl.bind("Print", function()
+    local mon = hl.get_active_monitor()
+    local n = mon and mon.id or 0
+    hl.exec_cmd("flameshot screen --number " .. n .. " --edit")
+end)
 
--- Mod key with printscreen to take the whole frame
-hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("grim - | swappy -f -"))
+-- WINDOW RULES
+hl.window_rule({
+    match       = { class = "flameshot" },
+    no_anim     = true,
+    pin         = true,
+    float       = true,
+    decorate    = false,
+    no_blur     = true,
+    no_shadow   = true,
+})
+hl.window_rule({
+    match   = { class = "flameshot", title = "flameshot" },
+    move    = { 0, 0 },
+})
+hl.window_rule({
+    match = { class = "flameshot", title = "flameshot-pin" },
+    move  = { "cursor_x-(window_w*0.5)", "cursor_y-(window_h*0.5)" },
+})
 
 -- Win + Shift + O to OCR into clipboard from screenshot!
 hl.bind(mainMod .. " + SHIFT + O", hl.dsp.exec_cmd("$HOME/.local/scripts/ocr-screenshot.sh"))
