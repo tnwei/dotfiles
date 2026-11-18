@@ -23,12 +23,16 @@ CORE_PKGS=(
     "fzf"
     "make"
     "tmux"
+    "foot"
+    "fd-find"
     "vim"
     "stow"
     "tig"
     "neovim"
     "rclone"
-    "lmsensors"
+    "chromium"
+    # Changed from lmsensors?
+    "lm_sensors"
 )
 
 PIPX_PKGS=(
@@ -38,8 +42,13 @@ PIPX_PKGS=(
     "pre-commit"
     "dtrx"
     "git+https://github.com/tnwei/nbread"
-    "keymap-drawer"
+    "git+https://github.com/tnwei/unda"
+    # "keymap-drawer"
 )
+
+# flatpak
+# flatpak install flathub com.github.PintaProject.Pinta -y
+
 
 HYPRLAND_DESKTOP_PKGS=(
     # sudo dnf copr enable lionheartp/Hyprland
@@ -47,6 +56,7 @@ HYPRLAND_DESKTOP_PKGS=(
     # Might need to dnf install the remaining hyprland packages manually
     "hyprlock"
     "hypridle"
+    "hyprland-guiutils"
     "hyprpicker"
     "wl-clipboard"
     "waybar"
@@ -58,8 +68,10 @@ HYPRLAND_DESKTOP_PKGS=(
     # "polkit-gnome"
     "mate-polkit"
     "dunst"
-    "grim"
-    "slurp"
+    # "grim"
+    # "slurp"
+    # "swappy"
+    "flameshot"
     "foot"
     "blueman"
     "chromium"
@@ -72,8 +84,6 @@ HYPRLAND_DESKTOP_PKGS=(
     "zathura"
     "zathura-pdf-mupdf"
     "vlc"
-    "pinta"
-    "swappy"
     "fuzzel"
 )
 

@@ -77,7 +77,10 @@ hl.on("hyprland.start", function()
 	-- Bluetooth
 	-- blueman recommended in https://www.reddit.com/r/hyprland/comments/165hhd9/
 	hl.exec_cmd("blueman-applet")
-	hl.exec_cmd("waybar")
+	
+    -- hl.exec_cmd("waybar")
+    hl.exec_cmd("noctalia")
+
 
     -- Sets up flameshot in the waybar!
     hl.exec_cmd("flameshot")
@@ -261,7 +264,8 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + U", hl.dsp.exec_cmd("wlogout"))
 -- bind = $mainMod, L, exec, $HOME/.local/scripts/swaylock-fancy.sh
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
+-- hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("loginctl lock-session"))
 
 -- Run toggle screen script
 -- hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("$HOME/.local/scripts/toggle-monitor.sh"))
@@ -298,6 +302,14 @@ hl.window_rule({
 hl.window_rule({
     match = { class = "flameshot", title = "flameshot-pin" },
     move  = { "cursor_x-(window_w*0.5)", "cursor_y-(window_h*0.5)" },
+})
+
+-- Pointer keeps flickering for some reason
+hl.config({
+    cursor = {
+        -- 0 = off, 1 = on (disable hw cursors), 2 = auto
+        no_hardware_cursors = 1,
+    },
 })
 
 -- Win + Shift + O to OCR into clipboard from screenshot!
